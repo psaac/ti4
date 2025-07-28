@@ -4,6 +4,11 @@
 Dans un univers où une grande guerre a décimé beaucoup de peuples et de planètes, vous incarnez une faction (ou peuple) qui tente de prendre le contrôle de l'univers, en explorant, étendant, produisant et détruisant les planètes et autres factions (4X).
 La planète centrale "Mecatol Rex" est l'endroit où le sénat vote et promulgue les lois/projets (pas actif en début de partie), lois/projets qui changent (souvent) beaucoup le jeu !
 
+## Acronymes
+TLJ : Tous les joueurs
+SDP : Systèmes de défense planétaire
+PV : Point de victoire
+
 ## But du jeu / Comment gagner
 Le seul moyen de gagner est d'obtenir 10 (14 en mode "long") points de victoire via la validation d'objectifs, qui peuvent être publics ou privés.
 Les objectifs sont généralement obtenus en fin de manche (phase de statut), au nombre de 2 par manche (1 public, 1 privé) maximum.
@@ -31,7 +36,7 @@ Les factions sont fournies avec :
 Le reste des éléments de jeu des joueurs sont identiques pour tous les joueurs, seule la couleur change.
 Eléments de jeu joueur :
 * Plateau pour les jetons :
-  * Tactique : Permet les actions principales, bouger les vaissaux, attaquer, produire...etc. Début = 3
+  * Commandement : Permet les actions principales, bouger les vaissaux, attaquer, produire...etc. Début = 3
   * Flotte : Indique la capacité de flotte (= nombre de VAISSEAUX par système). Début = 3
   * Stratégie : permet en général d'utiliser la capacité secondaire de la carte stratégie. Début = 2
   * Biens commerciaux : jokers lors de l'utilisation d'influence ou de ressources pour produire des unités
@@ -58,6 +63,10 @@ Eléments de jeu joueur :
 * Cartes technologies (3 types, jaune, vert, bleu)
 * 5 billets à ordre (des promesses qu'on va échanger à d'autres joueurs pendant la partie, par exemple "Cessez le feu")
 
+## Orateur
+Il est déterminé aléatoirement. Dans le cas de la construction de la galaxie pas random, c'est lui qui commence à poser avec Mecatol Rex.
+Il va surtout trancher les égalités de vote lors de la phase projet.
+
 ## Phase d'une manche
 * Stratégie
   * En commençant par l'orateur, puis dans le sens horaire, on choisit une (ou 2 si on joue à 3 ou 4) carte stratégie
@@ -66,11 +75,35 @@ Eléments de jeu joueur :
 * Actions
   * C'est là que tout se passe ! On joue jusqu'à ce qu'on décide de passer.
   * On peut faire 3 types d'actions :
-    * Jouer une carte stratégie : primaire pour le joueur actif, secondaire pour tous les autres joueurs. Chaque joueur doit absolument jouer sa/ses cartes stratégies avant de pouvoir passer
-    * Jouer une action de son plateau de faction ou d'une carte action (avec le mot clé action)
-    * 
+    * Jouer une carte stratégie : primaire pour le joueur actif, secondaire pour tous les autres joueurs. Chaque joueur doit absolument jouer sa/ses cartes stratégies avant de pouvoir passer. Une fois jouée, elle est retournée.
+    * Jouer une action tactique (jeton de la réserve tactique), c'est la phase qui peut prendre le plus de temps dans le jeu car beaucoup de choses vont se passer :
+      * Activation : placer le jeton dans un système qui n'a pas encore été activé par le joueur courant (il peut avoir été activé par un autre joueur) ce qui rend le système actif.
+      * Déplacement : On peut déplacer n'importe quel nombre de vaisseaux VERS ce système à condition :
+        * Que les vaisseaux ne proviennent pas d'un système qui a déjà été activé par le joueur actif
+        * Que les vaisseaux terminent obligatoirement leur déplacement sur le système activé
+        * De respecter la valeur de mouvement des vaisseaux déplacés
+        * De respecter le nombre de vaisseaux de la flotte (réserve de jetons)
+        * Notes :
+          * On peut assimiler le jeton d'activation d'un système comme un aimant, qui attire les vaisseaux à portée, et qui ne sont pas dans un système où il y a au autre aimant, vers lui (moyen de se souvenir comment ça fonctionne).
+          * Les vaisseaux ont aussi une valeur de transport pour : les chasseurs, les troupes au sol et les mécas
+          * On ne peut pas traverser un système qui contient des vaisseaux d'un autre joueur (des forces terrestres oui)
+          * S'il y a un joueur dans le système activé (celui vers lequel on se déplace), il y a combat (voir section combat).
+    * Jouer une action de son plateau de faction ou d'une carte action (avec le mot clé "Action:")
+  * On peut faire des échanges à ce moment là avec les joueurs qui sont dans des systèmes adjacents, notamment échanger des commodités qui deviennent des biens commerciaux.
 * Statut
-* Projet
+  * On score les objectifs (moment où l'on peut gagner) : max 2 objectifs, 1 public et un privé.
+  * L'orateur révèle l'objectif suivant
+  * TLJ pioche une carte action
+  * TLJ reprennent leurs jetons de commandement du plateau et les remettent en réserve
+  * TLJ prennent 2 jetons de commandement et les placent sur leur zone de jetons de commandement, en réorganisant comme ils veulent les 3 réserves (tactique, flotte, stratégie). Attention, s'il y des flottes "trop grandes" par rapport à la taille de flotte, il faut détruire les vaisseaux en trop.
+  * TLJ "refresh" toutes les cartes : planètes, technologies, l'agent.
+  * TLJ réparent les vaisseaux enfommagés (ceux qui ont la capacité dégat encaissés)
+  * TLJ rendent leur carte stratégie
+* Projet (Agenda)
+  * L'orateur pioche une carte du paquet projet et les joueurs votent avec l'influence de leurs planètes (c'est pour ça qu'on les a retournées juste avant, mais pas de panique, elles seront de nouveau disponibles pour la prochaine manche !)
+  * L'orateur pioche une seconde carte projet et on fait la même chose.
+  * L'influence utilisée pour la première carte ne peut pas l'être pour la 2ème
+  * On peut faire des échanges à ce moment là (pas besoin d'être adjacent car c'est une phase spéciale de jeu)
 
 ## Stratégie et initiative
 
@@ -78,9 +111,6 @@ Eléments de jeu joueur :
 
 ## Mecatol Rex (planète centrale)
 
-## Orateur
-Il est déterminé aléatoirement. Dans le cas de la construction de la galaxie pas random, c'est lui qui commence à poser avec Mecatol Rex.
-Il va surtout trancher les égalités de vote lors de la phase projet.
 
 ## Ordres
 ### Initiative
@@ -102,6 +132,15 @@ Les planètes sont de 3 types :
 ### Phase d'action
 
 ### Phase de projet (votes)
+
+## Combat
+Lorsqu'un joueur entre avec des vaisseaux dans un système où il y a des unités d'un autre joueur (vaisseaux, SDP ou forces terrestres), il y a "combat" selon le scénario suivant :
+* Les unités n'ont qu'un seul point de vie (sauf ceux qui ont la capacité dégat encaissé qui peuvent alors être endommagés une fois). Une fois une unité détruite, elle est enlevée du plateau. 
+* Si le joueur attaqué a des SDP sur sa planète, il les active, en lancant autant de dés qu'il y a de SDP, succès si les dés font la valeur indiquée ou plus. C'est le joueur attaquant qui choisit quel vaisseau est touché.
+* Si les joueurs ont des unités ayant la capacité barrage anti-chasseur (les destroyers en général), ils activent cette capacité (potentiellement plusieurs dés à lancer, c'est écrit entre parenthèses). Les 2 joueurs le font simultanément puisque ça ne détruit que les chasseurs.
+* Retraite : en commençant par le défenseur, chaque joueur peut annoncer une retraite dans un système adjacent qu'il contrôle(avec ou sans unités), donc attention parfois la retraite n'est pas possible ! Néanmoins, un tour de combat aura quand même lieu ! En cas de retraite, les forces au sol (sur les planètes) doivent quitter la planète et aller "dans l'espace"
+* Combat des vaisseaux : tous les vaisseaux lancent leurs dés (peu importe l'ordre), en faisant attention au nombre de dés. On compte les touches pour chaque côté.
+* Assignation des dégâts : 
 
 ## Exploration & Reliques
 Lorsque l'on explore un système la première fois, on pioche autant de carte d'exploration qu'il y a de planètes (fonction de la couleur du type de planète)
