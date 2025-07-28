@@ -20,45 +20,51 @@ Les factions sont fournies avec :
  * les différents vaisseaux, structures et forces terrestres
  * les capacités/actions spéciales (en haut à droite)
  * La capacité de commodités
+ * Les vaisseaux et unités de départ
+ * La technologie standard de départ
 * 17 marqueurs de contrôle rectangles, utilisés pour marquer les objectifs, les systèmes contrôlés
 * 16 jetons de commandement triangles, recto-verso
 * 1 tuile de système natal avec la/les cartes planète correspondantes (un système=1 tuile hexagonale, qui peut contenir 0 à 3 planètes)
 * 2 cartes technologie spécifiques à la faction
 * 1 à 2 billets à ordre spécifiques à la faction
-* 
+
 Le reste des éléments de jeu des joueurs sont identiques pour tous les joueurs, seule la couleur change.
 Eléments de jeu joueur :
-* Plateau pour les jetons : Tactique, flotte et stratégie. Biens commerciaux (= jokers lors de l'utilisation d'influence ou de ressources pour produire des unités)
+* Plateau pour les jetons :
+  * Tactique : Permet les actions principales, bouger les vaissaux, attaquer, produire...etc. Début = 3
+  * Flotte : Indique la capacité de flotte (= nombre de VAISSEAUX par système). Début = 3
+  * Stratégie : permet en général d'utiliser la capacité secondaire de la carte stratégie. Début = 2
+  * Biens commerciaux : jokers lors de l'utilisation d'influence ou de ressources pour produire des unités
 * Plateau pour les leaders :
- * Agent : capacité cool, accessible dès le début de la partie
- * Commandant : capacité top, une fois par manche. Pas accessible en début de partie, à débloquer.
- * Héro : capacité de la mort qui tue, mais usage unique dans la partie. Pas accessible en début de partie, à débloquer.
- * Meca : unité comme une force terrestre
+  * Agent : capacité cool, accessible dès le début de la partie
+  * Commandant : capacité top, une fois par manche. Pas accessible en début de partie, à débloquer.
+  * Héro : capacité de la mort qui tue, mais usage unique dans la partie. Pas accessible en début de partie, à débloquer.
+  * Meca : unité comme une force terrestre
 * Figurines plastique :
- * Structures (ne compte pas dans la limite de flotte)
-  * 3 docks spaciaux = Production d'unités, on démarre la partie avec 1 en général
-  * 6 SDP = Systèmes de défense planétaire
- * Forces terrestres (ne compte pas dans la limite de flotte)
-  * Infanterie (drapeaux) = troupes au sol
-  * 4 Méca
- * Vaisseaux
-  * Chasseurs (ne compte pas dans la limite de flotte)
-  * Destroyer
-  * Transporter = pour le transport !
-  * Croiseur =
-  * Cuirassé
-  * Soleil de Guerre
-  * Vaisseau amiral = le bourrin
+  * Structures (ne compte pas dans la limite de flotte)
+    * 3 docks spaciaux = Production d'unités, on démarre la partie avec 1 en général
+    * 6 SDP = Systèmes de défense planétaire
+  * Forces terrestres (ne compte pas dans la limite de flotte)
+    * Infanterie (drapeaux) = troupes au sol
+    * 4 Méca
+  * Vaisseaux
+    * Chasseurs (ne compte pas dans la limite de flotte)
+    * Destroyer
+    * Transporter = pour le transport !
+    * Croiseur =
+    * Cuirassé
+    * Soleil de Guerre
+    * Vaisseau amiral = le bourrin
 * Cartes technologies (3 types, jaune, vert, bleu)
 * 5 billets à ordre (des promesses qu'on va échanger à d'autres joueurs pendant la partie, par exemple "Cessez le feu")
 
 ## Phase d'une manche
 * Stratégie
- * En commençant par l'orateur, puis dans le sens horaire, on choisit une (ou 2 si on joue à 3 ou 4) carte stratégie
- * Le joueur ayant le plus petit numéro sera le premier à jouer, pour on poursuit en regardant les numéros suivants, pas dans le sens horaire !
+  * En commençant par l'orateur, puis dans le sens horaire, on choisit une (ou 2 si on joue à 3 ou 4) carte stratégie
+  * Le joueur ayant le plus petit numéro sera le premier à jouer, pour on poursuit en regardant les numéros suivants, pas dans le sens horaire !
 * Actions
- * C'est là que tout se passe !
- * On peut faire 3 types d'actions :
+  * C'est là que tout se passe !
+  * On peut faire 3 types d'actions :
   * Jouer une carte stratégie : primaire pour le joueur actif, secondaire pour tous les autres joueurs
 * Statut
 * Projet
