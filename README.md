@@ -62,10 +62,13 @@ Eléments de jeu joueur :
 * Stratégie
   * En commençant par l'orateur, puis dans le sens horaire, on choisit une (ou 2 si on joue à 3 ou 4) carte stratégie
   * Le joueur ayant le plus petit numéro sera le premier à jouer, pour on poursuit en regardant les numéros suivants, pas dans le sens horaire !
+  * Les cartes non choisies recoivent un bien commercial (gagné par le joueur qui choisira la carte lors d'une prochaine phase de stratégie)
 * Actions
-  * C'est là que tout se passe !
+  * C'est là que tout se passe ! On joue jusqu'à ce qu'on décide de passer.
   * On peut faire 3 types d'actions :
-  * Jouer une carte stratégie : primaire pour le joueur actif, secondaire pour tous les autres joueurs
+    * Jouer une carte stratégie : primaire pour le joueur actif, secondaire pour tous les autres joueurs. Chaque joueur doit absolument jouer sa/ses cartes stratégies avant de pouvoir passer
+    * Jouer une action de son plateau de faction ou d'une carte action (avec le mot clé action)
+    * 
 * Statut
 * Projet
 
