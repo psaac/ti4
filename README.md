@@ -14,8 +14,9 @@ Le seul moyen de gagner est d'obtenir 10 (14 en mode "long") points de victoire 
 Les objectifs sont généralement obtenus en fin de manche (phase de statut), au nombre de 2 par manche (1 public, 1 privé) maximum.
 Les objectifs publics sont au nombre de 10 (on en révèle un par tour), et sont de niveau 1 (5 objectifs à 1PV), puis de niveau 2 (5 objectifs à 2 PV). Les objectifs privés sont limités à 3 maximum (réalisés ou non).
 On commence la partie avec 2 objectifs publics de niveau 1, et chaque joueur a 1 objectif privé.
-!!! Si le joueur ne contrôle plus son système natal, il ne peut plus valider d'objectif public !!!
-!!! Attention au timinig de validation des objectifs !!!
+> **Si le joueur ne contrôle plus son système natal, il ne peut plus valider d'objectif public**
+> **Attention au timinig de validation des objectifs : il existe des objectifs phase de statut et d'autres en phase d'action ou combat**
+
 A chaque fin de manche (phase statut), l'orateur révèle un nouvel objectif, s'il ne peut pas car les 10 ont été révélés, la partie prend fin immédiatement : c'est l'Imperium Rex. Le joueur avec le plus de PV gagne, en cas d'égalité celui avant la valeur d'initiative la plus petite l'emporte.
 
 ## Factions
@@ -75,20 +76,19 @@ Il va surtout trancher les égalités de vote lors de la phase projet.
 * Actions
   * C'est là que tout se passe ! On joue jusqu'à ce qu'on décide de passer.
   * On peut faire 3 types d'actions :
-    * Jouer une carte stratégie : primaire pour le joueur actif, secondaire pour tous les autres joueurs. Chaque joueur doit absolument jouer sa/ses cartes stratégies avant de pouvoir passer. Une fois jouée, elle est retournée.
-    * Jouer une action tactique (jeton de la réserve tactique), c'est la phase qui peut prendre le plus de temps dans le jeu car beaucoup de choses vont se passer :
-      * Activation : placer le jeton dans un système qui n'a pas encore été activé par le joueur courant (il peut avoir été activé par un autre joueur) ce qui rend le système actif.
-      * Déplacement : On peut déplacer n'importe quel nombre de vaisseaux VERS ce système à condition :
+    * **Jouer une carte stratégie** : primaire pour le joueur actif, secondaire pour tous les autres joueurs. Chaque joueur doit absolument jouer sa/ses cartes stratégies avant de pouvoir passer. Une fois jouée, elle est retournée.
+    * **Jouer une action tactique** (jeton de la réserve tactique), c'est la phase qui peut prendre le plus de temps dans le jeu car beaucoup de choses vont se passer :
+      * _Activation_ : placer le jeton dans un système qui n'a pas encore été activé par le joueur courant (il peut avoir été activé par un autre joueur) ce qui rend le système actif.
+      * _Déplacement_ : On peut déplacer n'importe quel nombre de vaisseaux VERS ce système à condition :
         * Que les vaisseaux ne proviennent pas d'un système qui a déjà été activé par le joueur actif
         * Que les vaisseaux terminent obligatoirement leur déplacement sur le système activé
         * De respecter la valeur de mouvement des vaisseaux déplacés
         * De respecter le nombre de vaisseaux de la flotte (réserve de jetons)
-        * Notes :
-          * On peut assimiler le jeton d'activation d'un système comme un aimant, qui attire les vaisseaux à portée, et qui ne sont pas dans un système où il y a au autre aimant, vers lui (moyen de se souvenir comment ça fonctionne).
-          * Les vaisseaux ont aussi une valeur de transport pour : les chasseurs, les troupes au sol et les mécas
-          * On ne peut pas traverser un système qui contient des vaisseaux d'un autre joueur (des forces terrestres oui)
-          * S'il y a un joueur dans le système activé (celui vers lequel on se déplace), il y a combat (voir section combat).
-    * Jouer une action de son plateau de faction ou d'une carte action (avec le mot clé "Action:")
+        > On peut assimiler le jeton d'activation d'un système comme un aimant, qui attire les vaisseaux à portée, et qui ne sont pas dans un système où il y a au autre aimant, vers lui (moyen de se souvenir comment ça fonctionne).
+        > Les vaisseaux ont aussi une valeur de transport pour : les chasseurs, les troupes au sol et les mécas.
+        > On ne peut pas traverser un système qui contient des vaisseaux d'un autre joueur (des forces terrestres oui).
+      * _Combat_ : S'il y a un joueur dans le système activé (celui vers lequel on se déplace), il y a combat (voir section combat).
+    * **Jouer une action de son plateau de faction ou d'une carte action** : Tout ce qui a le mot clé "Action:"
   * On peut faire des échanges à ce moment là avec les joueurs qui sont dans des systèmes adjacents, notamment échanger des commodités qui deviennent des biens commerciaux.
 * Statut
   * On score les objectifs (moment où l'on peut gagner) : max 2 objectifs, 1 public et un privé.
@@ -134,13 +134,26 @@ Les planètes sont de 3 types :
 ### Phase de projet (votes)
 
 ## Combat
-Lorsqu'un joueur entre avec des vaisseaux dans un système où il y a des unités d'un autre joueur (vaisseaux, SDP ou forces terrestres), il y a "combat" selon le scénario suivant :
-* Les unités n'ont qu'un seul point de vie (sauf ceux qui ont la capacité dégat encaissé qui peuvent alors être endommagés une fois). Une fois une unité détruite, elle est enlevée du plateau. 
-* Si le joueur attaqué a des SDP sur sa planète, il les active, en lancant autant de dés qu'il y a de SDP, succès si les dés font la valeur indiquée ou plus. C'est le joueur attaquant qui choisit quel vaisseau est touché.
-* Si les joueurs ont des unités ayant la capacité barrage anti-chasseur (les destroyers en général), ils activent cette capacité (potentiellement plusieurs dés à lancer, c'est écrit entre parenthèses). Les 2 joueurs le font simultanément puisque ça ne détruit que les chasseurs.
-* Retraite : en commençant par le défenseur, chaque joueur peut annoncer une retraite dans un système adjacent qu'il contrôle(avec ou sans unités), donc attention parfois la retraite n'est pas possible ! Néanmoins, un tour de combat aura quand même lieu ! En cas de retraite, les forces au sol (sur les planètes) doivent quitter la planète et aller "dans l'espace"
-* Combat des vaisseaux : tous les vaisseaux lancent leurs dés (peu importe l'ordre), en faisant attention au nombre de dés. On compte les touches pour chaque côté.
-* Assignation des dégâts : 
+> Les phases d'un combat sont rappelées sur la fiche des jetons.
+> Les unités n'ont qu'un seul point de vie (sauf ceux qui ont la capacité dégat encaissé qui peuvent alors être endommagés une fois). Une fois une unité détruite, elle est enlevée du plateau.
+Lorsqu'un joueur entre avec des vaisseaux dans un système où il y a des unités d'un autre joueur (vaisseaux, SDP ou forces terrestres), il y a "combat" selon les phases suivantes :
+  1. Si le joueur attaqué a des SDP sur sa planète, il les active, en lancant autant de dés qu'il y a de SDP, succès si les dés font la valeur indiquée ou plus. C'est le joueur attaquant qui choisit quel vaisseau est touché.
+  2. Si les joueurs ont des unités ayant la capacité barrage anti-chasseur (les destroyers en général), ils activent cette capacité (potentiellement plusieurs dés à lancer, c'est écrit entre parenthèses). Les 2 joueurs le font simultanément puisque ça ne détruit que les chasseurs.
+  3. Annonce de retraite : en commençant par le défenseur, chaque joueur peut annoncer une retraite dans un système adjacent qu'il contrôle(avec ou sans unités), donc attention parfois la retraite n'est pas possible ! Néanmoins, un tour de combat aura quand même lieu ! En cas de retraite, les forces au sol (sur les planètes) doivent quitter la planète et aller "dans l'espace". Il est possible de faire une retraite dans un système qui a déjà un jeton de commandement présent du joueur.
+  4. Combat des vaisseaux : tous les vaisseaux lancent leurs dés (peu importe l'ordre), en faisant attention au nombre de dés et au valeur de combat (la valeur indique le nombre minimum à faire au dé). On compte les touches pour chaque côté, puis on assigne les dégâts :
+  * Les vaisseaux détruits retournent dans la réserve
+  * Les vaisseaux endommagés (qui ont dégats encaissés) sont retournés pour indiquer qu'ils sont endommagés
+  * Les vaisseaux sont détruits EN MEME temps
+  > Attention à la valeurs de transports, si elle devient plus petite que ce qui est transporté, il faudra détruire les unités chasseurs, terrestres ou méca en conséquence !
+  5. Retraite (si une retraite a été annoncée dans le système annoncé) : Comme déjà dit, elle ne peut avoir que dans un système contrôlé par le joueur. S'il n'y a pas déjà de jeton de commandement, en ajouter un de la réserve. !!! Attention à la valeur de flotte s'il y avait déjà des vaisseaux dans le système !!!
+  6. S'il reste des vaisseaux des deux joueurs, on reprend à la phase 3, jusqu'à ce qu'il n'y ait plus de vaissaux que d'une couleur (ou plus de couleur).
+  7. Invasion : si le joueur défenseur n'a plus de vaisseaux et que le joueur attaquant a toujours des vaisseaux :
+  * Si des vaisseaux ont la capacité bombardement, le joueur peut utiliser la capacité afin d'essayer de détruire des unités au sol (on lance les dés et le joueur défenseur assigne les résultats comme il veut).
+  * Puis le joueur attaquant débarque (s'il en a) ses unités terrestres (rappel : on ne peut pas avoir des unités terrestres sans vaisseaux qui les transportent car elles n'ont pas encore débarqué !), alors les unités terrestres débarquent sur la/les planètes (au choix de l'attaquant de répartir comme il veut).
+  * Le joueur défenseur peut alors utiliser ses SDP pour essayer de réduire les forces au sol de l'attaquant (lancer de dés). Les forces au sol de l'attaquant sont détruites en conséquence (répartition au choix de l'attaquant).
+  * Enfin, le combat au sol a lieu : on lance les dés pour chaque unité présente (troupe/méca), comme pour l'attaque des vaisseaux.
+> Il n'y a pas de retraite possible dans le combat au sol, c'est un combat à mort ! (qui peut donc se solder par la perte des unités des 2 joueurs !)
+> Les mécas ont dégats encaissés
 
 ## Exploration & Reliques
 Lorsque l'on explore un système la première fois, on pioche autant de carte d'exploration qu'il y a de planètes (fonction de la couleur du type de planète)
