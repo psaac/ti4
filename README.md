@@ -85,7 +85,9 @@ Il va surtout trancher les égalités de vote lors de la phase projet.
         * De respecter la valeur de mouvement des vaisseaux déplacés
         * De respecter le nombre de vaisseaux de la flotte (réserve de jetons)
         > On peut assimiler le jeton d'activation d'un système comme un aimant, qui attire les vaisseaux à portée, et qui ne sont pas dans un système où il y a au autre aimant, vers lui (moyen de se souvenir comment ça fonctionne).
+        > 
         > Les vaisseaux ont aussi une valeur de transport pour : les chasseurs, les troupes au sol et les mécas.
+        > 
         > On ne peut pas traverser un système qui contient des vaisseaux d'un autre joueur (des forces terrestres oui).
       * _Combat_ : S'il y a un joueur dans le système activé (celui vers lequel on se déplace), il y a combat (voir section combat).
     * **Jouer une action de son plateau de faction ou d'une carte action** : Tout ce qui a le mot clé "Action:"
@@ -135,7 +137,11 @@ Les planètes sont de 3 types :
 
 ## Combat
 > Les phases d'un combat sont rappelées sur la fiche des jetons.
-> Les unités n'ont qu'un seul point de vie (sauf ceux qui ont la capacité dégat encaissé qui peuvent alors être endommagés une fois). Une fois une unité détruite, elle est enlevée du plateau.
+> 
+> Les unités n'ont qu'un seul point de vie (sauf ceux qui ont la capacité dégat encaissé qui peuvent alors être endommagés une fois). 
+>
+> Une fois une unité détruite, elle est retirée du plateau.
+
 Lorsqu'un joueur entre avec des vaisseaux dans un système où il y a des unités d'un autre joueur (vaisseaux, SDP ou forces terrestres), il y a "combat" selon les phases suivantes :
   1. Si le joueur attaqué a des SDP sur sa planète, il les active, en lancant autant de dés qu'il y a de SDP, succès si les dés font la valeur indiquée ou plus. C'est le joueur attaquant qui choisit quel vaisseau est touché.
   2. Si les joueurs ont des unités ayant la capacité barrage anti-chasseur (les destroyers en général), ils activent cette capacité (potentiellement plusieurs dés à lancer, c'est écrit entre parenthèses). Les 2 joueurs le font simultanément puisque ça ne détruit que les chasseurs.
@@ -145,7 +151,8 @@ Lorsqu'un joueur entre avec des vaisseaux dans un système où il y a des unité
   * Les vaisseaux endommagés (qui ont dégats encaissés) sont retournés pour indiquer qu'ils sont endommagés
   * Les vaisseaux sont détruits EN MEME temps
   > Attention à la valeurs de transports, si elle devient plus petite que ce qui est transporté, il faudra détruire les unités chasseurs, terrestres ou méca en conséquence !
-  5. Retraite (si une retraite a été annoncée dans le système annoncé) : Comme déjà dit, elle ne peut avoir que dans un système contrôlé par le joueur. S'il n'y a pas déjà de jeton de commandement, en ajouter un de la réserve. !!! Attention à la valeur de flotte s'il y avait déjà des vaisseaux dans le système !!!
+  5. Retraite (si une retraite a été annoncée dans le système annoncé) : Comme déjà dit, elle ne peut avoir que dans un système contrôlé par le joueur. S'il n'y a pas déjà de jeton de commandement, en ajouter un de la réserve. 
+  > Attention à la valeur de flotte s'il y avait déjà des vaisseaux dans le système !
   6. S'il reste des vaisseaux des deux joueurs, on reprend à la phase 3, jusqu'à ce qu'il n'y ait plus de vaissaux que d'une couleur (ou plus de couleur).
   7. Invasion : si le joueur défenseur n'a plus de vaisseaux et que le joueur attaquant a toujours des vaisseaux :
   * Si des vaisseaux ont la capacité bombardement, le joueur peut utiliser la capacité afin d'essayer de détruire des unités au sol (on lance les dés et le joueur défenseur assigne les résultats comme il veut).
@@ -153,6 +160,7 @@ Lorsqu'un joueur entre avec des vaisseaux dans un système où il y a des unité
   * Le joueur défenseur peut alors utiliser ses SDP pour essayer de réduire les forces au sol de l'attaquant (lancer de dés). Les forces au sol de l'attaquant sont détruites en conséquence (répartition au choix de l'attaquant).
   * Enfin, le combat au sol a lieu : on lance les dés pour chaque unité présente (troupe/méca), comme pour l'attaque des vaisseaux.
 > Il n'y a pas de retraite possible dans le combat au sol, c'est un combat à mort ! (qui peut donc se solder par la perte des unités des 2 joueurs !)
+>
 > Les mécas ont dégats encaissés
 
 ## Exploration & Reliques
