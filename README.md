@@ -15,11 +15,13 @@ La planète centrale "Mecatol Rex" est l'endroit où le sénat vote et promulgue
 <a id="CS"></a>CS : Carte stratégie (de 1 à 8)  
 <a id="CT"></a>CT : Carte technologie  
 <a id="IF"></a>IF : Influence (bleu sur les [CPL](#CPL))  
+<a id="MC"></a>MC : Marquer contrôle (rectangle)  
 <a id="OB"></a>OB : Objectif (public ou secret)  
 <a id="OBP"></a>OPB : Objectif public  
 <a id="OBS"></a>OPS : Objectif secret  
-<a id="PC"></a>PC : Pion commandement (peut être tactique, flotte ou stratégique)  
+<a id="PC"></a>PC : Pion commandement (triangle, peut être tactique, flotte ou stratégique)  
 <a id="PS"></a>PS : Pion de la réserve stratégique  
+<a id="PT"></a>PT : Pion de la réserve tactique  
 <a id="PV"></a>PV : Point de victoire  
 <a id="RP"></a>RP : Ressource de production (jaune sur les [CPL](#CPL))  
 <a id="SDP"></a>SDP : Systèmes de défense planétaire  
@@ -50,8 +52,8 @@ Les factions sont fournies avec :
 - La capacité de commodités
 - Les vaisseaux et unités de départ
 - La CT standard de départ
-- 17 marqueurs de contrôle rectangles, utilisés pour marquer les OB, les systèmes contrôlés
-- 16 jetons de commandement triangles, recto-verso
+- 17 [MC](#MC), utilisés pour marquer les OB, les systèmes contrôlés
+- 16 [PC](#PC), recto-verso
 - 1 tuile de système natal avec la/les [CPL](#CPL) correspondantes (un système=1 tuile hexagonale, qui peut contenir 0 à 3 planètes)
 - 2 CT spécifiques à la faction
 - 1 à 2 [BO](#BO) spécifiques à la faction
@@ -104,7 +106,7 @@ Son rôle est principalement de piocher et annoncer les [CPJ](#CPJ) et de tranch
   - C'est là que tout se passe ! On joue jusqu'à ce qu'on décide de passer.
   - On peut faire 3 types d'actions :
     - **Jouer une CS** : primaire pour le joueur actif, secondaire pour tous les autres joueurs. Chaque joueur doit absolument jouer sa/ses CS avant de pouvoir passer. Une fois jouée, elle est retournée.
-    - **Jouer une action tactique** (jeton de la réserve tactique), c'est la phase qui peut prendre le plus de temps dans le jeu car beaucoup de choses vont se passer :
+    - **Jouer une action tactique** ([PT](#PT)), c'est la phase qui peut prendre le plus de temps dans le jeu car beaucoup de choses vont se passer :
       - _Activation_ : placer le jeton dans un système qui n'a pas encore été activé par le joueur courant (il peut avoir été activé par un autre joueur) ce qui rend le système actif.
       - _Déplacement_ : On peut déplacer n'importe quel nombre de vaisseaux VERS ce système à condition :
         - Que les vaisseaux ne proviennent pas d'un système qui a déjà été activé par le joueur actif
@@ -112,8 +114,8 @@ Son rôle est principalement de piocher et annoncer les [CPJ](#CPJ) et de tranch
         - De respecter la valeur de mouvement des vaisseaux déplacés
         - De respecter le nombre de vaisseaux de la flotte (réserve de jetons)
         - De respecter les valeurs de transport pour les les chasseurs, les TT.
-          > **On ne peut pas traverser un système qui contient des vaisseaux d'un autre joueur (des forces terrestres oui).**
-          >
+          > **On ne peut pas traverser un système qui contient des vaisseaux d'un autre joueur (des forces terrestres oui).**  
+          > Si on quitte une/des planètes sans laisser de TT (ou dock ou SDP), on laisse alors un [MC](#MC) pour indiquer qu'on a toujours le contrôle de la planète (jusqu'à ce qu'un autre joueur viennent s'installer !)
           > _On peut assimiler le jeton d'activation d'un système comme un aimant, qui attire les vaisseaux à portée, et qui ne sont pas dans un système où il y a au autre aimant, vers lui (moyen de se souvenir comment ça fonctionne)._
       - _Combat/Invasion_ : S'il y a un joueur dans le système activé (celui vers lequel on se déplace), il y a combat (voir section Combat/Invasion).
       - _Production_ : L'étape production a toujours lieu, même après un combat. Voir la section production.
@@ -124,8 +126,8 @@ Son rôle est principalement de piocher et annoncer les [CPJ](#CPJ) et de tranch
   - On score les OB (moment où l'on peut gagner) : max 2 OB, 1 OPB et 1 OPS.
   - L'orateur révèle l'OB suivant
   - TLJ pioche une [CA](#CA)
-  - TLJ reprennent leurs jetons de commandement du plateau et les remettent en réserve
-  - TLJ prennent 2 jetons de commandement et les placent sur leur zone de jetons de commandement, en réorganisant comme ils veulent les 3 réserves (tactique, flotte, stratégie). Attention, s'il y des flottes "trop grandes" par rapport à la taille de flotte, il faut détruire les vaisseaux en trop.
+  - TLJ reprennent leurs [PC](#PC) du plateau et les remettent en réserve
+  - TLJ prennent 2 [PC](#PC) et les placent sur leur zone de [PC](#PC), en réorganisant comme ils veulent les 3 réserves (tactique, flotte, stratégie). Attention, s'il y des flottes "trop grandes" par rapport à la taille de flotte, il faut détruire les vaisseaux en trop.
   - TLJ "refresh" toutes les cartes : [CPL](#CPL), [CT](#CT), personnages (agent...).
   - TLJ réparent les vaisseaux enfommagés (ceux qui ont la capacité dégat encaissés)
   - TLJ rendent leur(s) CS
@@ -178,7 +180,7 @@ Timing en cas de plusieurs cartes jouées en même temps :
 
 ## Mecatol Rex (planète centrale)
 
-Cette planète abrite le sénat et tant qu'elle n'est pas prise par un joueur, la phase projet n'a pas lieu. Pour prendre cette planète, il faut l'activer avec un jeton tactique (off course !), envahir avec au moins une TT et dépenser 6 influences (marqueurs bleus des planètes). Le joueur récupère le marqueur présent et gagne immédiatement 1 PV.
+Cette planète abrite le sénat et tant qu'elle n'est pas prise par un joueur, la phase projet n'a pas lieu. Pour prendre cette planète, il faut l'activer avec un [PT](#PT) (off course !), envahir avec au moins une TT et dépenser 6 influences (marqueurs bleus des planètes). Le joueur récupère le marqueur présent et gagne immédiatement 1 PV.
 
 ## Systèmes, planètes & co
 
@@ -227,7 +229,7 @@ Lorsqu'un joueur entre avec des vaisseaux dans un système où il y a des unité
 
 1. Si le joueur attaqué a des SDP sur sa planète, il les active, en lancant autant de dés qu'il y a de SDP, succès si les dés font la valeur indiquée ou plus. C'est le joueur attaquant qui choisit quel vaisseau est touché.
 2. Si les joueurs ont des unités ayant la capacité barrage anti-chasseur (les destroyers en général), ils activent cette capacité (potentiellement plusieurs dés à lancer, c'est écrit entre parenthèses). Les 2 joueurs le font simultanément puisque ça ne détruit que les chasseurs.
-3. Annonce de retraite : en commençant par le défenseur, chaque joueur peut annoncer une retraite dans un système adjacent qu'il contrôle(avec ou sans unités), donc attention parfois la retraite n'est pas possible ! Néanmoins, un tour de combat aura quand même lieu ! En cas de retraite, les forces au sol (sur les planètes) doivent quitter la planète et aller "dans l'espace". Il est possible de faire une retraite dans un système qui a déjà un jeton de commandement présent du joueur.
+3. Annonce de retraite : en commençant par le défenseur, chaque joueur peut annoncer une retraite dans un système adjacent qu'il contrôle(avec ou sans unités), donc attention parfois la retraite n'est pas possible ! Néanmoins, un tour de combat aura quand même lieu ! En cas de retraite, les forces au sol (sur les planètes) doivent quitter la planète et aller "dans l'espace". Il est possible de faire une retraite dans un système qui a déjà un [PC](#PC) présent du joueur.
 4. Combat des vaisseaux : tous les vaisseaux lancent leurs dés (peu importe l'ordre), en faisant attention au nombre de dés et au valeur de combat (la valeur indique le nombre minimum à faire au dé). On compte les touches pour chaque côté, puis on assigne les dégâts :
 
 - Les vaisseaux détruits retournent dans la réserve
@@ -235,7 +237,7 @@ Lorsqu'un joueur entre avec des vaisseaux dans un système où il y a des unité
 - Les vaisseaux sont détruits EN MEME temps
   > Attention à la valeurs de transports, si elle devient plus petite que ce qui est transporté, il faudra détruire les unités chasseurs, terrestres ou méca en conséquence !
 
-5. Retraite (si une retraite a été annoncée dans le système annoncé) : Comme déjà dit, elle ne peut avoir que dans un système contrôlé par le joueur. S'il n'y a pas déjà de jeton de commandement, en ajouter un de la réserve.
+5. Retraite (si une retraite a été annoncée dans le système annoncé) : Comme déjà dit, elle ne peut avoir que dans un système contrôlé par le joueur. S'il n'y a pas déjà de [PC](#PC), en ajouter un de la réserve.
    > Attention à la valeur de flotte s'il y avait déjà des vaisseaux dans le système !
 6. S'il reste des vaisseaux des deux joueurs, on reprend à la phase 3, jusqu'à ce qu'il n'y ait plus de vaissaux que d'une couleur (ou plus de couleur).
 7. Invasion : si le joueur défenseur n'a plus de vaisseaux et que le joueur attaquant a toujours des vaisseaux :
