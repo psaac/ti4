@@ -299,7 +299,7 @@ Pour jouer certaines technologies, il faut avoir le prérequis (à gauche de la 
 Lorsque l'on explore un système la première fois, on pioche autant de carte d'exploration qu'il y a de planètes sur lesquelles on a mis au moins une unité terrestre (fonction de la couleur du type de planète). Ces cartes sont toujours révélées à tous les joueurs.  
 Les cartes possibles sont :
 
-- Des fragments de reliques, il en faudra 3 pour récupérer une relique (cartes jaunes), en général elles donnent des capacités intéressantes. Interdit d'échanger les reliques avec un autre joueur (les fragments on peut !).
+- Des fragments de reliques, il en faudra 3 pour récupérer une relique (cartes jaunes), en général elles donnent des capacités intéressantes. Interdit d'échanger les reliques avec un autre joueur (les fragments on peut !). Les reliques sont visibles des autres joueurs.
 - Des améliorations de planète : on attache alors la carte à la [CPL](#CPL) correspondante et on prend le jeton correspondant qu'on place sur la tuile planète pour indiquer le changement.
 - Des évènements immédiats (à résoudre au moment on récupère la carte)
 
