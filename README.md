@@ -193,9 +193,11 @@ Cette planète abrite le sénat et tant qu'elle n'est pas prise par un joueur, l
 Il y a plusieurs types de tuiles (une tuile=un système) :
 
 - Systèmes "normaux" avec 1, 2 ou 3 planètes
-- Anomalies (bords rouges pointillés)
+- Anomalies (bords rouges pointillés), il en existe 4 types :
+  - TODO
 - Systèmes vides
   Sur les tuiles on peut aussi avoir des trous de ver (alpha, beta et gamma), les tuiles avec la même lettre de trou sont considérées comme adjacentes.
+- Rift : permet une case de mouvement en plus, mais il faut lancer un dé pour savoir si le vaisseau qui passe par le rift va être détruit. 
 
 Les planètes sont de 3 types :
 
@@ -307,6 +309,11 @@ Les cartes possibles sont :
 > Mecatol Rex ou les systèmes natals ne peuvent pas être explorés
 
 Les systèmes sans planètes contiennent des jetons "frontière" qui donnent aussi une carte, mais il faudra avoir la [CT](#CT) permettant de pouvoir explorer ces jetons.
+
+## Personnages
+- Agent : disponible des le début de la partie, est epuisé quand utilisé
+- Commandant : à débloquer, capacité passive. Sa capacité peut être partagée, via le [BO](BO) Alliance.
+- Héraut : à déploquer, capacité unique par partie.
 
 ## Eliminiation d'un joueur
 
