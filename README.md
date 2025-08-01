@@ -28,7 +28,8 @@ La planète centrale "Mecatol Rex" est l'endroit où le sénat vote et promulgue
 <a id="SDP"></a>SDP : Systèmes de défense planétaire  
 <a id="TLJ"></a>TLJ : Tous les joueurs  
 <a id="TT"></a>TT : Troupe terrestre = infanterie ou méca  
-=> : Gagnez (si rien à gauche, c'est gratuit)
+=> : Gagnez (si rien à gauche, c'est gratuit)  
+Purger une carte : exclusion du jeu
 
 ## But du jeu / Comment gagner
 
