@@ -121,7 +121,7 @@ Son rôle est principalement de piocher et annoncer les [CPJ](#CPJ) et de tranch
           > _On peut assimiler le jeton d'activation d'un système comme un aimant, qui attire les vaisseaux à portée, et qui ne sont pas dans un système où il y a au autre aimant, vers lui (moyen de se souvenir comment ça fonctionne)._
       - _Combat/Invasion_ : S'il y a un joueur dans le système activé (celui vers lequel on se déplace), il y a combat (voir section Combat/Invasion).
       - _Production_ : L'étape production a toujours lieu, même après un combat. Voir la section production.
-    - **Jouer une action de son plateau de faction ou d'une [CA](#CA)** : Tout ce qui a le mot clé "Action:"
+    - **Jouer une action de son plateau de faction ou d'une [CA](#CA) ou d'une [CT](#CT)** : Tout ce qui a le mot clé "Action:"
   - On peut faire des échanges à ce moment là avec les joueurs qui sont dans des systèmes adjacents, notamment échanger des commodités qui deviennent des [BC](#BC).
   - A la fin d'une de ces 3 actions, il est possible d'annoncer que l'on passe (on ne fera alors plus rien avant la prochaine manche), mais on peut jouer des cartes actions (sans le mot clé action) et profiter des actions secondaires des autres [CS](#CS) jouées par les autres joueurs.
 - **Statut**
@@ -291,9 +291,14 @@ Lorsqu'un joueur entre avec des vaisseaux dans un système où il y a des unité
 ## Technologies
 
 Ce sont des cartes qui améliorent notre faction ou nos unités. Elles peuvent être acquises lorsqu'un joueur joue la [CS](#CS) "Technologie" (7).  
-Elles sont de 4 types : jaune, bleues, rouges et vertes.  
+Elles sont de 4 types : 
+- Biotique (vert)
+- Propulsion (bleu)
+- Militaire (rouge)
+- Cybernétique (jaune)  
 Elle sont organisées en arbre (système de prérequis).  
-Pour jouer certaines technologies, il faut avoir le prérequis (à gauche de la carte), qui peut être obtenu par une autre [CT](#CT) ou par une [CPL](#CPL).
+Pour acquérir certaines technologies, il faut avoir le prérequis (à gauche de la carte), qui peut être obtenu par une autre [CT](#CT) ou par une [CPL](#CPL).
+Les [CT](#CT) acquises sont visibles de tous les joueurs. Certaines donnent une action.
 
 > Attention aux prérequis (gauche de la carte) !
 
