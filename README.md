@@ -331,4 +331,5 @@ Dans certains cas un joueur peut se retrouver éliminé. Il ne peut alors plus j
 ## Mise en place d'une partie
 
 - On détermine aléatoirement l'orateur.
-- 
+- [TLJ](#TLJ) choissisent une faction (ou aleatoirement) et prennent les composants : 17 [MC](#MC), 16 [PC](#PC), 1 tuile système de départ, 1 [BO](#BO), 2 [CT](#CT), 3 personnages, 1 carte méca, matériel spécifique éventuel de la faction.
+- [TLJ](#TLJ) choisissent une couleur et le matériel : 63 unités plastiques, 1 plateau de commandement, 1 plateau personnage/méca, 33 [CT](#CT), 
