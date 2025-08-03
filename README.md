@@ -194,10 +194,11 @@ Il y a plusieurs types de tuiles (une tuile=un système) :
 
 - Systèmes "normaux" avec 1, 2 ou 3 planètes
 - Anomalies (bords rouges pointillés), il en existe 4 types :
-  - TODO
+  - Champs d'astrroïdes et Supernovas : on ne peut pas y entrer ou les traverser (sauf avec une [CT](#CT) TODO A CONFIRMER
+  - Nébuleuses : On ne peut pas les traverser, pour y aller il faut les activer. Pour en sortir, la valeur de mouvement est de 1 (sauf effet ou [CT](#CT)). Lors des combats, le défenseur a +1 sur les dés.
+  - Rift : permet une case de mouvement en plus, mais il faut lancer un dé pour savoir si le vaisseau qui passe par le rift va être détruit. On lance 1 dé par vaisseau qui passe par le rift, si le résultat est entre 1 et 3, le vaisseau est détruit.
 - Systèmes vides
-  Sur les tuiles on peut aussi avoir des trous de ver (alpha, beta et gamma), les tuiles avec la même lettre de trou sont considérées comme adjacentes.
-- Rift : permet une case de mouvement en plus, mais il faut lancer un dé pour savoir si le vaisseau qui passe par le rift va être détruit. 
+  Sur les tuiles on peut aussi avoir des [TDV](#TDV) (alpha, beta et gamma), les tuiles avec la même lettre de [TDV](#TDV) sont considérées comme adjacentes.
 
 Les planètes sont de 3 types :
 
