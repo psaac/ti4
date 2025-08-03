@@ -1,6 +1,6 @@
 # Twilight Imperium 4 - Résumé des règles et comment expliquer le jeu
 
-Le guide suivant est issu du lien suivant : [Definite Twilight Imperium Guide](#https://images-cdn.fantasyflightgames.com/filer_public/51/55/51552c7f-c05c-445b-84bf-4b073456d008/ti10_pok_living_rules_reference_20_web.pdf)
+Le guide suivant est issu du lien suivant : [Definite Twilight Imperium Guide](https://images-cdn.fantasyflightgames.com/filer_public/51/55/51552c7f-c05c-445b-84bf-4b073456d008/ti10_pok_living_rules_reference_20_web.pdf)
 
 ## Résumé
 
