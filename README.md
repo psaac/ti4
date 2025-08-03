@@ -331,5 +331,7 @@ Dans certains cas un joueur peut se retrouver éliminé. Il ne peut alors plus j
 ## Mise en place d'une partie
 
 - On détermine aléatoirement l'orateur.
-- [TLJ](#TLJ) choissisent une faction (ou aleatoirement) et prennent les composants : 17 [MC](#MC), 16 [PC](#PC), 1 tuile système de départ, 1 [BO](#BO), 2 [CT](#CT), 3 personnages, 1 carte méca, matériel spécifique éventuel de la faction.
-- [TLJ](#TLJ) choisissent une couleur et le matériel : 63 unités plastiques, 1 plateau de commandement, 1 plateau personnage/méca, 33 [CT](#CT), 
+- [TLJ](#TLJ) choissisent une faction (ou aleatoirement) et prennent les composants : 17 [MC](#MC), 16 [PC](#PC), 1 tuile système de départ, 1 [CPL](#CPL) (face disponible), 1 [BO](#BO), 2 [CT](#CT), 3 personnages, 1 carte méca, matériel spécifique éventuel de la faction.
+- [TLJ](#TLJ) choisissent une couleur et le matériel : 63 unités plastiques, 1 plateau de commandement, 1 plateau personnage/méca, 33 [CT](#CT),5 [BO](#BO). les [BO](#BO) et [CT](#CT) faction et couleur sont rassemblés. Les personnages sont placés pour montrer les marqueurs bleus 1,2 et 3.
+- La carte de l'univers est créée soit avec les régles spécifiques, soit aléatoirement avec le site suivant : [TI4 map generator](https://keeganw.github.io/ti4/)
+- 
