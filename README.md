@@ -298,7 +298,7 @@ Elles sont de 4 types :
 - Militaire (rouge)
 - Cybernétique (jaune)  
 Elle sont organisées en arbre (système de prérequis).  
-Pour acquérir certaines technologies, il faut avoir le prérequis (à gauche de la carte), qui peut être obtenu par une autre [CT](#CT) ou par une [CPL](#CPL).
+Pour acquérir certaines technologies, il faut avoir le prérequis (à gauche de la carte), qui peut être obtenu par une autre [CT](#CT) ou par une [CPL](#CPL) (qu'il faudra épuiser !).  
 Les [CT](#CT) acquises sont visibles de tous les joueurs. Certaines donnent une action.
 
 > Attention aux prérequis (gauche de la carte) !
