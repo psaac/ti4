@@ -43,7 +43,7 @@ On commence la partie avec 2 [OBP](#OBP) de niveau 1, et chaque joueur a 1 [OBS]
 > **Si le joueur ne contrôle plus son système natal, il ne peut plus valider d'[OBP](#OBP)**  
 > **Attention au timing de validation des [OB](#OB) : il existe des [OB](#OB) phase de statut et d'autres en phase d'action (un seul par phase d'action).**
 
-A chaque fin de manche (phase statut), l'orateur révèle un nouvel [OB](#OB), s'il ne peut pas car les 10 ont été révélés, la partie prend fin immédiatement : c'est <u>l'Imperium Rex</u>. Le joueur avec le plus de [PV](#PV) gagne, en cas d'égalité celui avant la valeur d'initiative la plus petite l'emporte.
+A chaque fin de manche (phase statut), l'orateur révèle un nouvel [OB](#OB), s'il ne peut pas car les 10 ont été révélés, la partie prend fin immédiatement : c'est <u>l'Imperium Rex</u>. Le joueur avec le plus de [PV](#PV) gagne, en cas d'égalité celui ayant la valeur d'initiative la plus petite l'emporte.
 
 ## Factions
 
@@ -61,6 +61,11 @@ Les factions sont fournies avec :
 - 1 tuile de système natal avec la/les [CPL](#CPL) correspondantes (un système=1 tuile hexagonale, qui peut contenir 0 à 3 planètes)
 - 2 [CT](#CT) spécifiques à la faction
 - 1 à 2 [BO](#BO) spécifiques à la faction
+- 3 personnages (ou plus pour certaines factions) :
+  - Agent : capacité cool, accessible dès le début de la partie
+  - Commandant : capacité top, une fois par manche. Pas accessible en début de partie, à débloquer.
+  - Héro : capacité de la mort qui tue, mais usage unique dans la partie. Pas accessible en début de partie, à débloquer.
+- Meca : unité comme une force terrestre
 
 Le reste des éléments de jeu des joueurs sont identiques pour tous les joueurs, seule la couleur change.
 Eléments de jeu joueur :
@@ -74,11 +79,7 @@ Eléments de jeu joueur :
   - **Stratégie** : permet en général d'utiliser la capacité secondaire de la [CS](#CS).  
     Début = 2
   - **Biens commerciaux** : jokers lors de l'utilisation [RP](#RP) ou [IF](#IF) pour produire des unités
-- Plateau pour les leaders :
-  - Agent : capacité cool, accessible dès le début de la partie
-  - Commandant : capacité top, une fois par manche. Pas accessible en début de partie, à débloquer.
-  - Héro : capacité de la mort qui tue, mais usage unique dans la partie. Pas accessible en début de partie, à débloquer.
-  - Meca : unité comme une force terrestre
+- Plateau pour les personnages et le meca.
 - Figurines plastique :
   - Structures (ne compte pas dans la limite de flotte)
     - 3 [DS](#DS) = Production d'unités, on démarre la partie avec 1 en général
@@ -90,7 +91,7 @@ Eléments de jeu joueur :
     - Chasseurs (ne compte pas dans la limite de flotte)
     - Destroyer
     - Transporter = pour le transport !
-    - Croiseur =
+    - Croiseur
     - Cuirassé
     - Soleil de Guerre
     - Vaisseau amiral = le bourrin
