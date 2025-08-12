@@ -16,6 +16,7 @@ La planète centrale "Mecatol Rex" est l'endroit où le sénat vote et promulgue
 <a id="CPL"></a>CPL : Carte planète  
 <a id="CS"></a>CS : Carte stratégie (de 1 à 8)  
 <a id="CT"></a>CT : Carte technologie  
+<a id="DE"></a>DE : Dégats encaissés  
 <a id="DS"></a>DS : Dock spatial  
 <a id="IF"></a>IF : Influence (bleu sur les [CPL](#CPL))  
 <a id="MC"></a>MC : Marquer contrôle (rectangle)  
@@ -105,9 +106,11 @@ Son rôle est principalement de piocher et annoncer les [CPJ](#CPJ) et de tranch
 
 ## Phase d'une manche
 
-- **Stratégie**
+Le jeu se décompose en manches (10 maximum !), elles-mêmes decomposées en 4 phases.
+
+- **Phase Stratégie**
   Voir la section stratégie/initiative : choix d'une ou deux [CS](#CS).
-- **Actions**
+- **Phase d'Actions**
   - C'est là que tout se passe ! On joue jusqu'à ce qu'on décide de passer.
   - On peut faire 3 types d'actions :
     - **Jouer une [CS](#CS)** : primaire pour le joueur actif, secondaire pour tous les autres joueurs. Chaque joueur doit absolument jouer sa/ses [CS](#CS) avant de pouvoir passer. Une fois jouée, elle est retournée.
@@ -118,25 +121,26 @@ Son rôle est principalement de piocher et annoncer les [CPJ](#CPJ) et de tranch
         - Que les vaisseaux terminent obligatoirement leur déplacement sur le système activé
         - De respecter la valeur de mouvement des vaisseaux déplacés
         - De respecter le nombre de vaisseaux de la flotte (réserve de jetons)
-        - De respecter les valeurs de transport pour les les chasseurs, les [TT](#TT).
+        - De respecter les valeurs de transport pour les chasseurs et les [TT](#TT).
           > **On ne peut pas traverser un système qui contient des vaisseaux d'un autre joueur (des forces terrestres oui).**  
-          > Si on quitte une/des planètes sans laisser de [TT](#TT) (ou [DS](#DS) ou [SDP](#SDP)), on laisse alors un [MC](#MC) pour indiquer qu'on a toujours le contrôle de la planète (jusqu'à ce qu'un autre joueur viennent s'installer !)
+          > Si on quitte une/des planètes sans laisser de [TT](#TT) (ou [DS](#DS) ou [SDP](#SDP)), on laisse alors un [MC](#MC) pour indiquer qu'on a toujours le contrôle de la planète (jusqu'à ce qu'un autre joueur vienne s'installer !)
           > _On peut assimiler le jeton d'activation d'un système comme un aimant, qui attire les vaisseaux à portée, et qui ne sont pas dans un système où il y a au autre aimant, vers lui (moyen de se souvenir comment ça fonctionne)._
       - _Combat/Invasion_ : S'il y a un joueur dans le système activé (celui vers lequel on se déplace), il y a combat (voir section Combat/Invasion).
       - _Production_ : L'étape production a toujours lieu, même après un combat. Voir la section production.
     - **Jouer une action de son plateau de faction ou d'une [CA](#CA) ou d'une [CT](#CT)** : Tout ce qui a le mot clé "Action:"
   - On peut faire des échanges à ce moment là avec les joueurs qui sont dans des systèmes adjacents, notamment échanger des commodités qui deviennent des [BC](#BC).
   - A la fin d'une de ces 3 actions, il est possible d'annoncer que l'on passe (on ne fera alors plus rien avant la prochaine manche), mais on peut jouer des cartes actions (sans le mot clé action) et profiter des actions secondaires des autres [CS](#CS) jouées par les autres joueurs.
-- **Statut**
-  - On score les [OB](#OB) (moment où l'on peut gagner) : max 2 [OB](#OB), 1 [OBP](#OBP) et 1 [OBS](#OBS).
+- **Phase de Statut**
+Une fois que tous les joueurs ont passé :
+  - On score les [OB](#OB) (moment où l'on peut gagner) : max 2 [OB](#OB), 1 [OBP](#OBP) et 1 [OBS](#OBS). Si un joueur a le nombre de [PV](#PV) requis pour gagner, la partie prend fin, sinon : 
   - L'orateur révèle l'[OB](#OB) suivant
   - [TLJ](#TLJ) pioche une [CA](#CA)
   - [TLJ](#TLJ) reprennent leurs [PC](#PC) du plateau et les remettent en réserve
   - [TLJ](#TLJ) prennent 2 [PC](#PC) et les placent sur leur zone de [PC](#PC), en réorganisant comme ils veulent les 3 réserves (tactique, flotte, stratégie). Attention, s'il y des flottes "trop grandes" par rapport à la taille de flotte, il faut détruire les vaisseaux en trop.
   - [TLJ](#TLJ) "refresh" toutes les cartes : [CPL](#CPL), [CT](#CT), personnages (agent...).
-  - T[TLJ](#TLJ)LJ réparent les vaisseaux enfommagés (ceux qui ont la capacité dégat encaissés)
+  - [TLJ](#TLJ) réparent les vaisseaux enfommagés (ceux qui ont la capacité [DE](#DE))
   - [TLJ](#TLJ) rendent leur(s) [CS](#CS)
-- **Projet (uniquement si Mecatol Rex a été explorée !)**
+- **Phase de Projet (uniquement si Mecatol Rex a été explorée !)**
   - L'orateur pioche une [CPJ](#CPJ) et les joueurs votent, en commençant par le joueur à gauche de l'orateur, avec l'influence de leurs [CPL](#CPL) (c'est pour ça qu'on les a retournées juste avant, mais pas de panique, elles seront de nouveau disponibles pour la prochaine manche !)
   - L'orateur pioche une seconde [CPJ](#CPJ) et on fait la même chose.
   - L'influence utilisée pour la 1ère [CPJ](#CPJ) ne peut pas l'être pour la 2ème
@@ -169,7 +173,7 @@ L'initiative (ordre du tour lors de la phase d'actions) est déterminée par le 
 Utilisation des cartes stratégie :
 
 - Le joueur qui joue une carte stratégie utilise l'action principale
-- Tous les autres joueurs peuvent utiliser l'action secondaire (souvent )
+- Tous les autres joueurs peuvent utiliser l'action secondaire
 
 > Chaque joueur doit avoir joué sa/ses cartes stratégie pour pouvoir passer !
 
@@ -213,8 +217,8 @@ Ces types sont souvent utilisés dans les [OB](#OB) ou dans les projets (lois et
 
 Les planètes donnent des ressources de 2 types :
 
-- Les ressources de production (jaune) : permet de produire des unités (vaisseaux, [TT](#TT)...)
-- L'[IF](#IF) : permet d'utiliser les capacités secondaires des cartes stratégie et de voter lors de la phase projet.
+- Les [RP](#RP) : permet de produire des unités (vaisseaux, [TT](#TT)...)
+- L'[IF](#IF) : permet d'utiliser les capacités secondaires des cartes stratégie, de débloquer Mecatol Rex et de voter lors de la phase projet.
 
 Les planètes peuvent aussi donner des pré-requis pour la recherche de [CT](#CT) (voir la partie associée).  
 Certaines planètes sont légendaires (marqueur de lune noir/blanc), ce sont des planètes qui donnent une carte de pouvoir en plus (la carte entre en jeu épuisée comme la planète).
