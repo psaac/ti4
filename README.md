@@ -193,7 +193,7 @@ Timing en cas de plusieurs cartes jouées en même temps :
 
 ## Mecatol Rex (planète centrale)
 
-Cette planète abrite le sénat et tant qu'elle n'est pas prise par un joueur, la phase projet n'a pas lieu. Pour prendre cette planète, il faut l'activer avec un [PT](#PT) (off course !), envahir avec au moins une [TT](#TT) et dépenser 6 influences (marqueurs bleus des planètes). Le joueur récupère le marqueur présent et gagne immédiatement 1 [PV](#PV).
+Cette planète abrite le sénat et tant qu'elle n'est pas prise par un joueur, la phase projet n'a pas lieu. Pour prendre cette planète, il faut l'activer avec un [PT](#PT) (off course !), envahir avec au moins une [TT](#TT) et dépenser 6 [IF](#IF) (marqueurs bleus des planètes). Le joueur récupère le marqueur présent et gagne immédiatement 1 [PV](#PV).
 
 ## Systèmes, planètes & co
 
@@ -248,7 +248,7 @@ La corruption d'autres joueurs est FORTEMENT RECOMMANDEE !
 
 > Les phases d'un combat sont rappelées sur la fiche des jetons.
 >
-> Les unités n'ont qu'un seul point de vie (sauf ceux qui ont la capacité dégat encaissé qui peuvent alors être endommagés une fois).
+> Les unités n'ont qu'un seul point de vie (sauf ceux qui ont la capacité [DE](#DE) qui peuvent alors être endommagés une fois).
 >
 > Une fois une unité détruite, elle est retirée du plateau.
 
