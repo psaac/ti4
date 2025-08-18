@@ -24,11 +24,13 @@ La planète centrale "Mecatol Rex" est l'endroit où le sénat vote et promulgue
 <a id="OBP"></a>OBP : Objectif public  
 <a id="OBS"></a>OBS : Objectif secret  
 <a id="PC"></a>PC : Pion commandement (triangle, peut être tactique, flotte ou stratégique)  
+<a id="PF"></a>PF : Pion Frontière, placé sur les systèmes vides  
 <a id="PS"></a>PS : Pion de la réserve stratégique  
 <a id="PT"></a>PT : Pion de la réserve tactique  
 <a id="PV"></a>PV : Point de victoire  
 <a id="RP"></a>RP : Ressource de production (jaune sur les [CPL](#CPL))  
 <a id="SDP"></a>SDP : Systèmes de défense planétaire  
+<a id="TDV"></a>TDV : Trous de ver (déplacement)  
 <a id="TLJ"></a>TLJ : Tous les joueurs  
 <a id="TT"></a>TT : Troupe terrestre = infanterie ou méca  
 => : Gagnez (si rien à gauche, c'est gratuit)  
@@ -71,7 +73,7 @@ Les factions sont fournies avec :
 Le reste des éléments de jeu des joueurs sont identiques pour tous les joueurs, seule la couleur change.
 Eléments de jeu joueur :
 
-- Plateau pour les jetons :
+- Plateau pour les pions :
   - **Tactique** : Permet les actions principales, bouger les vaissaux, attaquer, produire...etc.  
     Début = 3
   - **Flotte** : Indique la capacité de flotte (= nombre de VAISSEAUX par système).  
@@ -115,24 +117,24 @@ Le jeu se décompose en manches (10 maximum !), elles-mêmes decomposées en 4 p
   - On peut faire 3 types d'actions :
     - **Jouer une [CS](#CS)** : primaire pour le joueur actif, secondaire pour tous les autres joueurs. Chaque joueur doit absolument jouer sa/ses [CS](#CS) avant de pouvoir passer. Une fois jouée, elle est retournée.
     - **Jouer une action tactique** ([PT](#PT)), c'est la phase qui peut prendre le plus de temps dans le jeu car beaucoup de choses vont se passer :
-      - _Activation_ : placer le jeton dans un système qui n'a pas encore été activé par le joueur courant (il peut avoir été activé par un autre joueur) ce qui rend le système actif.
+      - _Activation_ : placer le [PC](#PC) dans un système qui n'a pas encore été activé par le joueur courant (il peut avoir été activé par un autre joueur) ce qui rend le système actif.
       - _Déplacement_ : On peut déplacer n'importe quel nombre de vaisseaux VERS ce système à condition :
         - Que les vaisseaux ne proviennent pas d'un système qui a déjà été activé par le joueur actif
         - Que les vaisseaux terminent obligatoirement leur déplacement sur le système activé
         - De respecter la valeur de mouvement des vaisseaux déplacés
-        - De respecter le nombre de vaisseaux de la flotte (réserve de jetons)
+        - De respecter le nombre de vaisseaux de la flotte (réserve de pions)
         - De respecter les valeurs de transport pour les chasseurs et les [TT](#TT).
           > **On ne peut pas traverser un système qui contient des vaisseaux d'un autre joueur (des forces terrestres oui).**  
           > Si on quitte une/des planètes sans laisser de [TT](#TT) (ou [DS](#DS) ou [SDP](#SDP)), on laisse alors un [MC](#MC) pour indiquer qu'on a toujours le contrôle de la planète (jusqu'à ce qu'un autre joueur vienne s'installer !)
-          > _On peut assimiler le jeton d'activation d'un système comme un aimant, qui attire les vaisseaux à portée, et qui ne sont pas dans un système où il y a au autre aimant, vers lui (moyen de se souvenir comment ça fonctionne)._
+          > _On peut assimiler le [PT](#PT)/[PC](#PC) d'un système comme un aimant, qui attire les vaisseaux à portée, et qui ne sont pas dans un système où il y a au autre aimant, vers lui (moyen de se souvenir comment ça fonctionne)._
       - _Combat/Invasion_ : S'il y a un joueur dans le système activé (celui vers lequel on se déplace), il y a combat (voir section Combat/Invasion).
       - _Production_ : L'étape production a toujours lieu, même après un combat. Voir la section production.
     - **Jouer une action de son plateau de faction ou d'une [CA](#CA) ou d'une [CT](#CT)** : Tout ce qui a le mot clé "Action:"
   - On peut faire des échanges à ce moment là avec les joueurs qui sont dans des systèmes adjacents, notamment échanger des commodités qui deviennent des [BC](#BC).
   - A la fin d'une de ces 3 actions, il est possible d'annoncer que l'on passe (on ne fera alors plus rien avant la prochaine manche), mais on peut jouer des cartes actions (sans le mot clé action) et profiter des actions secondaires des autres [CS](#CS) jouées par les autres joueurs.
 - **Phase de Statut**
-Une fois que tous les joueurs ont passé :
-  - On score les [OB](#OB) (moment où l'on peut gagner) : max 2 [OB](#OB), 1 [OBP](#OBP) et 1 [OBS](#OBS). Si un joueur a le nombre de [PV](#PV) requis pour gagner, la partie prend fin, sinon : 
+  Une fois que tous les joueurs ont passé :
+  - On score les [OB](#OB) (moment où l'on peut gagner) : max 2 [OB](#OB), 1 [OBP](#OBP) et 1 [OBS](#OBS). Si un joueur a le nombre de [PV](#PV) requis pour gagner, la partie prend fin, sinon :
   - L'orateur révèle l'[OB](#OB) suivant
   - [TLJ](#TLJ) pioche une [CA](#CA)
   - [TLJ](#TLJ) reprennent leurs [PC](#PC) du plateau et les remettent en réserve
@@ -160,7 +162,7 @@ Il y a 8 [CS](#CS) :
 |3. Politique|Permet de définir l'orateur (doit changer !), => 2 [CA](#CA), Regarder les 2 1ères [CPJ](#CPJ) et mettre dessus/dessous|1 [PS](#PS) => 2 [CA](#CA)|
 |4. Construction|1 [SDP](#SDP) ou 1 Dock sur une planète contrôlée, 1 [SDP](#SDP) sur une planète contrôlée|1 [PS](#PS) => A placer dans un système, construire 1 [SDP](#SDP) ou 1 [DS](#DS) sur une planète contrôlée|
 |5. Commerce|=> 3 [BC](#BC), => Réappro. commodités, choisir les joueurs qui pourront utiliser la secondaire gratiutement|1 [PS](#PS) => Réappro. commodités|
-|6. Guerre|=> 1 [PC](#PC) du plateau (on le met où on veut), réattribution des jetons de la fiche|1 [PS](#PS) => Production [DS](#DS) système natal|
+|6. Guerre|=> 1 [PC](#PC) du plateau (on le met où on veut), réattribution des pions de la fiche|1 [PS](#PS) => Production [DS](#DS) système natal|
 |7. Technologie|=> 1 [CT](#CT), 6 [RP](#RP) => 1 [CT](#CT)|1 [PS](#PS)+4 [RP](#RP) => 1 [CT](#CT)|
 |8. Intrigue|=> 1 [OBP](#OBP) validé (si conditions remplies), 1 [PV](#PV) si contrôle M.REX ou pioche 1 [OBS](#OBS)|1 [PS](#PS) => 1 [OBS](#OBS)|
 
@@ -201,7 +203,7 @@ Il y a plusieurs types de tuiles (une tuile=un système) :
 
 - Systèmes "normaux" avec 1, 2 ou 3 planètes
 - Anomalies (bords rouges pointillés), il en existe 4 types :
-  - Champs d'astrroïdes et Supernovas : on ne peut pas y entrer ou les traverser, sauf avec une [CT](#CT), Déflecteurs antimasse pour les asteroïdes et une faction spécifique pour les supernovas.  
+  - Champs d'astrroïdes et Supernovas : on ne peut pas y entrer ou les traverser, sauf avec une [CT](#CT), Déflecteurs antimasse pour les asteroïdes et une faction spécifique pour les supernovas.
   - Nébuleuses : On ne peut pas les traverser, pour y aller il faut les activer. Pour en sortir, la valeur de mouvement est de 1 (sauf effet ou [CT](#CT)). Lors des combats, le défenseur a +1 sur les dés.
   - Rift : permet une case de mouvement en plus, mais il faut lancer un dé pour savoir si le vaisseau qui passe par le rift va être détruit. On lance 1 dé par vaisseau qui passe par le rift, si le résultat est entre 1 et 3, le vaisseau est détruit.
 - Systèmes vides
@@ -246,7 +248,7 @@ La corruption d'autres joueurs est FORTEMENT RECOMMANDEE !
 
 ## Combat/Invasion
 
-> Les phases d'un combat sont rappelées sur la fiche des jetons.
+> Les phases d'un combat sont rappelées sur la fiche de commandement.
 >
 > Les unités n'ont qu'un seul point de vie (sauf ceux qui ont la capacité [DE](#DE) qui peuvent alors être endommagés une fois).
 >
@@ -282,7 +284,7 @@ Lorsqu'un joueur entre avec des vaisseaux dans un système où il y a des unité
 - A condition qu'il y ait suffisamment d'unités terrestres (qu'il y ait eu combat ou non), les planètes du système deviennent contrôlées par le joueur attaquant/arrivant.
 - Le joueur prend les [CPL](#CPL) sur lesquelles il peut mettre au moins une unité terrestre, sur la face épuisée.
 - Les éventuelles structures du joueur défenseur sont détruites ([SDP](#SDP), [DS](#DS))
-- Si le système est exploré pour la première fois (présence d'un jeton custom !), le joueur fait une exploration (voir la partie exploration).
+- Si le système est exploré pour la première fois (présence d'un pion custom !), le joueur fait une exploration (voir la partie exploration).
 
 9. Production :  
    Le joueur peut à ce moment produire, avec les unités ayant le mot clé "Production" (la plupart du temps uniquement les [DS](#DS)). La production doit respecter les règles suivantes :
@@ -292,21 +294,22 @@ Lorsqu'un joueur entre avec des vaisseaux dans un système où il y a des unité
 - Les unités vaisseaux produites vont dans le système actif
 - Les unités terrestres vont sur la planète où il y a le dispositif de production (sauf si c'est produit par un vaisseau, là on a le choix)
 - Valeur de flotte
-  > Il est possible d'utiliser des jetons pour symboliser les infanteries (pas les mécas qui sont limités à 4) ou les chasseurs, à condition d'avoir toujours au moins une unité plastique
+  > Il est possible d'utiliser des pions pour symboliser les infanteries (pas les mécas qui sont limités à 4) ou les chasseurs, à condition d'avoir toujours au moins une unité plastique
   > Toutes les [RP](#RP) exédentaires sont perdues  
   > Il n'est pas possible de produire des vaisseaux dans un système où le joueur n'a pas de vaisseau et qu'il y a des vaisseauxx d'un autre joueur (ça entrainerait un combat, ce qui n'est pas possible).
 
 ## Technologies
 
 Ce sont des cartes qui améliorent notre faction ou nos unités. Elles peuvent être acquises lorsqu'un joueur joue la [CS](#CS) "Technologie" (7).  
-Elles sont de 4 types : 
+Elles sont de 4 types :
+
 - Biotique (vert)
 - Propulsion (bleu)
 - Militaire (rouge)
 - Cybernétique (jaune)  
-Elle sont organisées en arbre (système de prérequis).  
-Pour acquérir certaines technologies, il faut avoir le prérequis (à gauche de la carte), qui peut être obtenu par une autre [CT](#CT) ou par une [CPL](#CPL) (qu'il faudra épuiser !).  
-Les [CT](#CT) acquises sont visibles de tous les joueurs. Certaines donnent une action.
+  Elle sont organisées en arbre (système de prérequis).  
+  Pour acquérir certaines technologies, il faut avoir le prérequis (à gauche de la carte), qui peut être obtenu par une autre [CT](#CT) ou par une [CPL](#CPL) (qu'il faudra épuiser !).  
+  Les [CT](#CT) acquises sont visibles de tous les joueurs. Certaines donnent une action.
 
 > Attention aux prérequis (gauche de la carte) !
 
@@ -316,22 +319,31 @@ Lorsque l'on explore un système la première fois, on pioche autant de carte d'
 Les cartes possibles sont :
 
 - Des fragments de reliques, il en faudra 3 pour récupérer une relique (cartes jaunes), en général elles donnent des capacités intéressantes. Interdit d'échanger les reliques avec un autre joueur (les fragments on peut !). Les reliques sont visibles des autres joueurs.
-- Des améliorations de planète : on attache alors la carte à la [CPL](#CPL) correspondante et on prend le jeton correspondant qu'on place sur la tuile planète pour indiquer le changement.
+- Des améliorations de planète : on attache alors la carte à la [CPL](#CPL) correspondante et on prend le pion correspondant qu'on place sur la tuile planète pour indiquer le changement.
 - Des évènements immédiats (à résoudre au moment on récupère la carte)
 
 > Mecatol Rex ou les systèmes natals ne peuvent pas être explorés
 
-Les systèmes sans planètes contiennent des jetons "frontière" qui donnent aussi une carte, mais il faudra avoir la [CT](#CT) permettant de pouvoir explorer ces jetons.
+Les systèmes sans planètes contiennent des [PF](#PF) qui donnent aussi une carte, mais il faudra avoir la [CT](#CT) permettant de pouvoir explorer ces jetons.
 
 ## Personnages
+
 - Agent : disponible des le début de la partie, est epuisé quand utilisé
 - Commandant : à débloquer, capacité passive. Sa capacité peut être partagée, via le [BO](BO) Alliance.
 - Héraut : à déploquer, capacité unique par partie.
 
 ## Eliminiation d'un joueur
 
-Dans certains cas un joueur peut se retrouver éliminé. Il ne peut alors plus jouer lors de la phase action (et ne pourra plus en jouer de toute la partie). En revanche, il prend toujours part aux phases projet
-**TODO**
+Dans certains cas un joueur peut se retrouver éliminé. **Il ne peut alors plus jouer DU TOUT.**
+Un joueur est éliminé s'il remplit les 3 conditions suivantes :
+
+- Il n'a plus aucune [TT](#TT)
+- Il n'a plus aucune unité ayant le mot clé "Production"
+- Il ne contrôle plus aucune planète
+
+Dans le cas d'uné élimination, toutes les unités, [PC](#PC), [MC](#MC), [BO](#BO), [CT](#CT), plateaux (faction et commandement) sont rangés.  
+Les [CPJ](#CPJ) qu'il détenait sont défaussées.  
+Les [BO](#BO) qu'il détenait (et appartenant à d'autres joueurs) sont rendus à leur(s) propriétaire(s).
 
 ## Mise en place d'une partie
 
@@ -339,4 +351,4 @@ Dans certains cas un joueur peut se retrouver éliminé. Il ne peut alors plus j
 - [TLJ](#TLJ) choissisent une faction (ou aleatoirement) et prennent les composants : 17 [MC](#MC), 16 [PC](#PC), 1 tuile système de départ, 1 [CPL](#CPL) (face disponible), 1 [BO](#BO), 2 [CT](#CT), 3 personnages, 1 carte méca, matériel spécifique éventuel de la faction.
 - [TLJ](#TLJ) choisissent une couleur et le matériel : 63 unités plastiques, 1 plateau de commandement, 1 plateau personnage/méca, 33 [CT](#CT),5 [BO](#BO). les [BO](#BO) et [CT](#CT) faction et couleur sont rassemblés. Les personnages sont placés pour montrer les marqueurs bleus 1,2 et 3.
 - La carte de l'univers est créée soit avec les régles spécifiques, soit aléatoirement avec le site suivant : [TI4 map generator](https://keeganw.github.io/ti4/)
-- 
+- **TODO**
