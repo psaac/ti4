@@ -10,8 +10,10 @@ La planète centrale "Mecatol Rex" est l'endroit où le sénat vote et promulgue
 <a id="BC"></a>BC : Bien commercial  
 <a id="BO"></a>BO : Billet à ordre (ou "Promesse")  
 <a id="CA"></a>CA : Carte action  
+<a id="CE"></a>CE : Carte exploration  
 <a id="CPJ"></a>CPJ : Carte projet  
 <a id="CPL"></a>CPL : Carte planète  
+<a id="CR"></a>CR : Carte relique  
 <a id="CS"></a>CS : Carte stratégie (de 1 à 8)  
 <a id="CT"></a>CT : Carte technologie  
 <a id="DE"></a>DE : Dégats encaissés  
@@ -19,11 +21,14 @@ La planète centrale "Mecatol Rex" est l'endroit où le sénat vote et promulgue
 <a id="IF"></a>IF : Influence (bleu sur les [CPL](#CPL))  
 <a id="JF"></a>JF : Jeton Frontière, placé sur les systèmes vides, à explorer  
 <a id="MC"></a>MC : Marqueur contrôle (rectangle)  
+<a id="MR"></a>MR : Mecatol Rex  
 <a id="OB"></a>OB : Objectif (public ou secret)  
 <a id="OBP"></a>OBP : Objectif public  
 <a id="OBS"></a>OBS : Objectif secret  
 <a id="PC"></a>PC : Pion commandement (triangle, peut être tactique, flotte ou stratégique)  
 <a id="PF"></a>PF : Pion Frontière, placé sur les systèmes vides, à explorer  
+<a id="PLTF"></a>PLTF : Plateau faction  
+<a id="PLTC"></a>PLTC : Plateau commandement  
 <a id="POK"></a>PoK : Extension de [TI4](#TI4), Prophecy of Kings  
 <a id="PS"></a>PS : Pion de la réserve stratégique  
 <a id="PT"></a>PT : Pion de la réserve tactique  
@@ -62,7 +67,7 @@ A chaque fin de manche (phase statut), l'orateur révèle un nouvel [OB](#OB), s
 Il existe 24 factions toutes différentes (asymétrie complète !), il faudra en "choisir" une pour la partie.
 Les factions sont fournies avec :
 
-- 1 plateau faction principal avec :
+- 1 [PLTF](#PLTF) principal avec :
   - les différents vaisseaux, structures et forces terrestres
   - les capacités/actions spéciales (en haut à droite)
   - La capacité de commodités
@@ -143,20 +148,21 @@ Le jeu se décompose en manches (10 maximum !), elles-mêmes decomposées en 4 p
           > On peut assimiler le [PT](#PT)/[PC](#PC) d'un système comme un aimant, qui attire les vaisseaux à portée, et qui ne sont pas dans un système où il y a au autre aimant, vers lui (moyen de se souvenir comment ça fonctionne).
       - _Combat/Invasion_ : S'il y a un joueur dans le système activé (celui vers lequel on se déplace), il y a combat (voir section Combat/Invasion).
       - _Production_ : L'étape production a toujours lieu, même après un combat. Voir la section production.
-    - **Jouer une action de son plateau de faction ou d'une [CA](#CA) ou d'une [CT](#CT)** : Tout ce qui a le mot clé "Action:"
-  - On peut faire des échanges à ce moment là avec les joueurs qui sont dans des systèmes adjacents, notamment échanger des commodités qui deviennent des [BC](#BC) ou échanger des [BO](#BO).
-  - A la fin d'une de ces 3 actions, il est possible d'annoncer que l'on passe (on ne fera alors plus rien avant la prochaine manche), mais on peut jouer des cartes actions (sans le mot clé action) et profiter des actions secondaires des autres [CS](#CS) jouées par les autres joueurs.
+    - **Jouer une action de son [PLTF](#PLTF), d'une [CA](#CA), d'une [CT](#CT), une [CE](#CE) (fragment de relique), [CR](#CR)** : Tout ce qui a le mot clé "Action:"
+  - On peut faire des échanges à ce moment là avec les joueurs qui sont dans des systèmes adjacents (voir Commerce et échanges).
+  - A la place de faire une action (ou si le joueur ne peut plus faire d'actions), il peut annoncer que l'on passe (on ne fera alors plus rien avant la prochaine manche). Le joueur peut toujours profiter des actions secondaires des autres [CS](#CS) jouées par les autres joueurs. Durant le tour où le joueur annonce qu'il passe, le joueur peut résoudre des cartes dont la condition est "Au début de votre tour" ou faire des échanges avec ses voisins.
 - **Phase de Statut**  
   Une fois que tous les joueurs ont passé :
-  - On score les [OB](#OB) (moment où l'on peut gagner) : max 2 [OB](#OB), 1 [OBP](#OBP) et 1 [OBS](#OBS). Si un joueur a le nombre de [PV](#PV) requis pour gagner, la partie prend fin, sinon :
+  - On décompte les [PV](#PV) des [OB](#OB) (moment où l'on peut gagner) : max 2 [OB](#OB), 1 [OBP](#OBP) et 1 [OBS](#OBS). Si un joueur a le nombre de [PV](#PV) requis pour gagner, la partie prend fin, sinon :
   - L'orateur révèle l'[OB](#OB) suivant
-  - [TLJ](#TLJ) pioche une [CA](#CA)
-  - [TLJ](#TLJ) reprennent leurs [PC](#PC) du plateau et les remettent en réserve
-  - [TLJ](#TLJ) prennent 2 [PC](#PC) et les placent sur leur zone de [PC](#PC), en réorganisant comme ils veulent les 3 réserves (tactique, flotte, stratégie). Attention, s'il y des flottes "trop grandes" par rapport à la taille de flotte, il faut détruire les vaisseaux en trop.
-  - [TLJ](#TLJ) rendent disponibles (!= épuisé) toutes les cartes : [CPL](#CPL), [CT](#CT), personnages (agent...).
-  - [TLJ](#TLJ) réparent les vaisseaux enfommagés (ceux qui ont la capacité [DE](#DE))
-  - [TLJ](#TLJ) rendent leur(s) [CS](#CS)
-- **Phase de Projet (uniquement si Mecatol Rex a été explorée !)**
+  - [TLJ](#TLJ) :
+    - piochent une [CA](#CA)
+    - reprennent leurs [PC](#PC) du plateau de jeu et les remettent en réserve
+    - prennent 2 [PC](#PC) et les placent sur leur [PLTC](#PLTC), en réorganisant comme ils veulent les 3 réserves (tactique, flotte, stratégie). Attention, s'il y des flottes "trop grandes" par rapport à la taille de flotte, il faut détruire les vaisseaux en trop.
+    - rendent disponibles (!= épuisé) toutes les cartes : [CPL](#CPL), [CT](#CT), personnages (agent...).
+    - réparent les vaisseaux enfommagés (ceux qui ont la capacité [DE](#DE))
+    - rendent leur(s) [CS](#CS)
+- **Phase de Projet (uniquement si [MR](#MR) a été explorée !)**
   - L'orateur pioche une [CPJ](#CPJ) et les joueurs votent, en commençant par le joueur à gauche de l'orateur, avec l'influence de leurs [CPL](#CPL) (c'est pour ça qu'on les a rendues disponibles juste avant, elles seront rendues de nouveau disponibles pour la prochaine manche à la fin de la phase de projet)
   - L'orateur pioche une seconde [CPJ](#CPJ) et on fait la même chose.
   - L'influence utilisée pour la 1ère [CPJ](#CPJ) ne peut pas l'être pour la 2ème
@@ -172,11 +178,11 @@ Il y a 8 [CS](#CS) :
 |Numéro (initiative) / Nom|Action(s) principale(s)|Action secondaire|
 |:-|:-|:-|
 |1. Gouvernance|=> 3 [PC](#PC), 3 [IF](#IF) => 1 [PC](#PC) (∞)|4 [IF](#IF) => 1 [PC](#PC) (∞)|
-|2. Diplomatie|Permet de bloquer un système que le joueur contrôle (tous les joueurs mettent 1 [PC](#PC) de leur réserve)|1 [PS](#PS) => restaurer 2 [CPL](#CPL)|
+|2. Diplomatie|Permet de "protéger" un système que le joueur contrôle ([TLJ](#TLJ) mettent 1 [PC](#PC) de leur réserve sur un système, autre que [MR](#MR)), 1 [PS](#PS) => restaurer jusqu'à 2 [CPL](#CPL)|1 [PS](#PS) => restaurer jusqu'à 2 [CPL](#CPL)|
 |3. Politique|Permet de définir l'orateur (doit changer !), => 2 [CA](#CA), Regarder les 2 1ères [CPJ](#CPJ) et mettre dessus/dessous|1 [PS](#PS) => 2 [CA](#CA)|
-|4. Construction|1 [SDP](#SDP) ou 1 Dock sur une planète contrôlée, 1 [SDP](#SDP) sur une planète contrôlée|1 [PS](#PS) => A placer dans un système, construire 1 [SDP](#SDP) ou 1 [DS](#DS) sur une planète contrôlée|
-|5. Commerce|=> 3 [BC](#BC), => Réappro. commodités, choisir les joueurs qui pourront utiliser la secondaire gratiutement|1 [PS](#PS) => Réappro. commodités|
-|6. Guerre|=> 1 [PC](#PC) du plateau (on le met où on veut), réattribution des pions de la fiche|1 [PS](#PS) => Production [DS](#DS) système natal|
+|4. Construction|1 [SDP](#SDP) ou 1 Dock sur une planète contrôlée, 1 [SDP](#SDP) sur une planète contrôlée|1 [PS](#PS) => A placer dans un système (même s'il y a déjà un [PC](#PC)), construire 1 [SDP](#SDP) ou 1 [DS](#DS) sur une planète contrôlée|
+|5. Commerce|=> 3 [BC](#BC), => Réappro. commodités, choisir les joueurs qui **devront** utiliser la secondaire gratuitement|1 [PS](#PS) => Réappro. commodités|
+|6. Guerre|1 [PC](#PC) du plateau de jeu => [PLTC](#PLTC) (on le met où on veut), réattribution des pions de la fiche|1 [PS](#PS) (défaussé) => Production [DS](#DS) système natal|
 |7. Technologie|=> 1 [CT](#CT), 6 [RP](#RP) => 1 [CT](#CT)|1 [PS](#PS)+4 [RP](#RP) => 1 [CT](#CT)|
 |8. Intrigue|=> 1 [OBP](#OBP) validé (si conditions remplies), 1 [PV](#PV) si contrôle M.REX ou pioche 1 [OBS](#OBS)|1 [PS](#PS) => 1 [OBS](#OBS)|
 
@@ -185,7 +191,7 @@ Utilisation des cartes stratégie :
 - Le joueur qui joue une carte stratégie utilise l'action principale
 - Tous les autres joueurs peuvent utiliser l'action secondaire
 
-> Chaque joueur doit avoir joué sa/ses cartes stratégie pour pouvoir passer !
+> Rappel : chaque joueur doit avoir joué sa/ses cartes stratégie pour pouvoir passer !
 
 ## Cartes actions
 
@@ -228,7 +234,7 @@ Ces types sont souvent utilisés dans les [OB](#OB) ou dans les projets (lois et
 Les planètes donnent des ressources de 2 types :
 
 - Les [RP](#RP) : permet de produire des unités (vaisseaux, [TT](#TT)...)
-- L'[IF](#IF) : permet d'utiliser les capacités secondaires des cartes stratégie, de débloquer Mecatol Rex et de voter lors de la phase projet.
+- L'[IF](#IF) : permet d'utiliser les capacités secondaires des cartes stratégie, de débloquer [MR](#MR) et de voter lors de la phase projet.
 
 Les planètes peuvent aussi donner des pré-requis pour la recherche de [CT](#CT) (voir la partie associée).  
 Certaines planètes sont légendaires (marqueur de lune noir/blanc), ce sont des planètes qui donnent une carte de pouvoir en plus (la carte entre en jeu épuisée comme la planète).
@@ -242,7 +248,13 @@ Il est possible d'échanger 4 types d'éléments durant les échanges :
 - **Un** [BO](#BO)
 - Des fragments de relique (pas les reliques !)
 
-> Certaines factions peuvent échanger des [CA](#CA).  
+Il n'est **PAS POSSIBLE** d'échanger les éléments suivants (sauf indication contraire pour certaines factions) :
+
+- [CA](#CA)
+- [CT](#CT)
+- [CR](#CR)
+- [OBS](#OBS)
+
 > Les transactions ne doivent pas obligatoirement être équitables, les joueurs se mettent d'accord sur la transaction, échangent et c'est terminé (pas de retour arrière !).
 
 ### Phase d'action
@@ -323,14 +335,14 @@ Elles sont de 4 types :
 
 ## Exploration & Reliques
 
-Lorsque l'on explore un système la première fois, on pioche autant de carte d'exploration qu'il y a de planètes sur lesquelles on a mis au moins une unité terrestre (fonction de la couleur du type de planète). Ces cartes sont toujours révélées à tous les joueurs.  
+Lorsque l'on explore un système la première fois, on pioche autant de [CE](#CE) qu'il y a de planètes sur lesquelles on a mis au moins une unité terrestre (fonction de la couleur du type de planète). Ces cartes sont toujours révélées à tous les joueurs.  
 Les cartes possibles sont :
 
-- Des fragments de reliques, il en faudra 3 pour récupérer une relique (cartes jaunes), en général elles donnent des capacités intéressantes. Interdit d'échanger les reliques avec un autre joueur (les fragments on peut !). Les reliques sont visibles des autres joueurs.
+- Des fragments de reliques ([CE](#CE)), il en faudra 3 pour récupérer une [CR](#CR) (cartes jaunes), en général elles donnent des capacités intéressantes. Interdit d'échanger les [CR](#CR) avec un autre joueur (les fragments c'est possible). Les fragments et [CR](#CR) sont visibles des autres joueurs.
 - Des améliorations de planète : on attache alors la carte à la [CPL](#CPL) correspondante et on prend le jeton correspondant qu'on place sur la tuile planète pour indiquer le changement.
 - Des évènements immédiats (à résoudre au moment on récupère la carte)
 
-> Mecatol Rex ou les systèmes natals ne peuvent pas être explorés.
+> [MR](#MR) ou les systèmes natals ne peuvent pas être explorés.
 
 Les systèmes sans planètes contiennent des [JF](#JF) qui donnent aussi une carte, mais il faudra avoir la [CT](#CT) permettant de pouvoir explorer ces jetons.
 
@@ -349,7 +361,7 @@ Un joueur est éliminé s'il remplit les 3 conditions suivantes :
 - Il n'a plus aucune unité ayant le mot clé "Production"
 - Il ne contrôle plus aucune planète
 
-Dans le cas d'uné élimination, toutes les unités, [PC](#PC), [MC](#MC), [BO](#BO), [CT](#CT), plateaux (faction et commandement) sont rangés.  
+Dans le cas d'uné élimination, toutes les unités, [PC](#PC), [MC](#MC), [BO](#BO), [CT](#CT), plateaux ([PLTF](#PLTF) et [PLTC](#PLTC)) sont rangés.  
 Les [CPJ](#CPJ) qu'il détenait sont défaussées.  
 Les [BO](#BO) qu'il détenait (et appartenant à d'autres joueurs) sont rendus à leur(s) propriétaire(s).
 
@@ -362,7 +374,7 @@ Voir le livret de règles
 ### Option 2 : Semi aléatoire
 
 - On détermine aléatoirement l'orateur.
-- [TLJ](#TLJ) choissisent une faction (ou aleatoirement) et prennent les composants : 17 [MC](#MC), 16 [PC](#PC), 1 tuile système de départ, 1 [CPL](#CPL) (face disponible), 1 [BO](#BO), 2 [CT](#CT), 3 personnages, 1 carte méca, matériel spécifique éventuel de la faction.
+- [TLJ](#TLJ) choissisent une faction (ou aleatoirement) et prennent les composants : 1 [PLTF](#PLTF), 17 [MC](#MC), 16 [PC](#PC), 1 tuile système de départ, 1 [CPL](#CPL) (face disponible), 1 [BO](#BO), 2 [CT](#CT), 3 personnages, 1 carte méca, matériel spécifique éventuel de la faction.
 - La carte de l'univers est créée soit avec les régles spécifiques, soit aléatoirement avec le site suivant : [TI4 map generator](https://keeganw.github.io/ti4/)
 
 ### Option 3 : Draft mode
@@ -377,7 +389,7 @@ Utiliser l'[assistant](https://milty.shenanigans.be/) !
 
 ### Mise en place générale
 
-- [TLJ](#TLJ) choisissent une couleur et le matériel : 63 unités plastiques, 1 plateau de commandement, 1 plateau personnage/méca, 33 [CT](#CT),5 [BO](#BO). les [BO](#BO) et [CT](#CT) faction et couleur sont rassemblés. Les personnages sont placés de façon à afficher les marqueurs bleus (traits verticaux) 1,2 et 3.
+- [TLJ](#TLJ) choisissent une couleur et le matériel : 63 unités plastiques, 1 [PLTC](#PLTC), 1 plateau personnage/méca, 33 [CT](#CT),5 [BO](#BO). les [BO](#BO) et [CT](#CT) faction et couleur sont rassemblés. Les personnages sont placés de façon à afficher les marqueurs bleus (traits verticaux) 1,2 et 3.
 - [TLJ](#TLJ) débutent la partie avec 3 [PT](#PT), 3 [PF](#PF), 2 [PS](#PS)
 
 ## Suivi de partie
