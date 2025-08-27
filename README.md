@@ -1,6 +1,4 @@
-# Twilight Imperium 4 - Résumé des règles et comment expliquer le jeu
-
-Le guide suivant est issu du lien suivant : [Definite Twilight Imperium Guide](https://images-cdn.fantasyflightgames.com/filer_public/51/55/51552c7f-c05c-445b-84bf-4b073456d008/ti10_pok_living_rules_reference_20_web.pdf)
+# Twilight Imperium 4 (TI4) + Extension Prophecy Of Kings (PoK) - Résumé des règles et comment expliquer le jeu
 
 ## Résumé
 
@@ -10,7 +8,7 @@ La planète centrale "Mecatol Rex" est l'endroit où le sénat vote et promulgue
 ## Acronymes
 
 <a id="BC"></a>BC : Bien commercial  
-<a id="BO"></a>BO : Billet à ordre (je préfère "Promesse")  
+<a id="BO"></a>BO : Billet à ordre (ou "Promesse")  
 <a id="CA"></a>CA : Carte action  
 <a id="CPJ"></a>CPJ : Carte projet  
 <a id="CPL"></a>CPL : Carte planète  
@@ -19,22 +17,33 @@ La planète centrale "Mecatol Rex" est l'endroit où le sénat vote et promulgue
 <a id="DE"></a>DE : Dégats encaissés  
 <a id="DS"></a>DS : Dock spatial  
 <a id="IF"></a>IF : Influence (bleu sur les [CPL](#CPL))  
-<a id="MC"></a>MC : Marquer contrôle (rectangle)  
+<a id="JF"></a>JF : Jeton Frontière, placé sur les systèmes vides, à explorer  
+<a id="MC"></a>MC : Marqueur contrôle (rectangle)  
 <a id="OB"></a>OB : Objectif (public ou secret)  
 <a id="OBP"></a>OBP : Objectif public  
 <a id="OBS"></a>OBS : Objectif secret  
 <a id="PC"></a>PC : Pion commandement (triangle, peut être tactique, flotte ou stratégique)  
-<a id="PF"></a>PF : Pion Frontière, placé sur les systèmes vides  
+<a id="PF"></a>PF : Pion Frontière, placé sur les systèmes vides, à explorer  
+<a id="POK"></a>PoK : Extension de [TI4](#TI4), Prophecy of Kings  
 <a id="PS"></a>PS : Pion de la réserve stratégique  
 <a id="PT"></a>PT : Pion de la réserve tactique  
 <a id="PV"></a>PV : Point de victoire  
 <a id="RP"></a>RP : Ressource de production (jaune sur les [CPL](#CPL))  
 <a id="SDP"></a>SDP : Systèmes de défense planétaire  
 <a id="TDV"></a>TDV : Trous de ver (déplacement)  
+<a id="TI4"></a>TI4 : Twilight Imperium 4  
 <a id="TLJ"></a>TLJ : Tous les joueurs  
-<a id="TT"></a>TT : Troupe terrestre = infanterie ou méca  
-=> : Gagnez (si rien à gauche, c'est gratuit)  
-Purger une carte : exclusion du jeu
+<a id="TT"></a>TT : Troupe terrestre = infanterie ou méca
+
+## Précisions de termes
+
+- Manche : Ensemble des 4 phases de jeu (Statégie, Action, Statut, Projet), max. 10 manches dans une partie.
+- => : Gagnez (si rien à gauche, c'est gratuit)
+- Epuiser une carte : l'incliner ou la retourner pour indiquer qu'elle a été utilisée. Elle sera de nouveau disponible à la manche suivante.
+- Purger une carte : exclusion du jeu de la carte.
+- Pion : de forme triangle
+- Marqueur : de forme rectangle
+- Jeton : de forme ronde
 
 ## But du jeu / Comment gagner
 
@@ -54,66 +63,71 @@ Il existe 24 factions toutes différentes (asymétrie complète !), il faudra en
 Les factions sont fournies avec :
 
 - 1 plateau faction principal avec :
-- les différents vaisseaux, structures et forces terrestres
-- les capacités/actions spéciales (en haut à droite)
-- La capacité de commodités
-- Les vaisseaux et unités de départ
+  - les différents vaisseaux, structures et forces terrestres
+  - les capacités/actions spéciales (en haut à droite)
+  - La capacité de commodités
+  - Les vaisseaux et unités de départ
 - La [CT](#CT) standard de départ
-- 17 [MC](#MC), utilisés pour marquer les [OB](#OB), les systèmes contrôlés
-- 16 [PC](#PC), recto-verso
-- 1 tuile de système natal avec la/les [CPL](#CPL) correspondantes (un système=1 tuile hexagonale, qui peut contenir 0 à 3 planètes)
-- 2 [CT](#CT) spécifiques à la faction
+- 17 [MC](#MC), utilisés pour marquer les [OB](#OB), les systèmes contrôlés, la position sur la piste de score
+- 16 [PC](#PC), recto-verso (recto : tactique/stratégie, verso : flotte)
+- 1 tuile système natal (un système=1 tuile hexagonale, qui peut contenir 0 à 3 planètes) avec la/les [CPL](#CPL) correspondantes
+- 2 [CT](#CT) spécifiques à la faction (à acquérir en cours de partie)
 - 1 à 2 [BO](#BO) spécifiques à la faction
 - 3 personnages (ou plus pour certaines factions) :
   - Agent : capacité cool, accessible dès le début de la partie
-  - Commandant : capacité top, une fois par manche. Pas accessible en début de partie, à débloquer.
-  - Héro : capacité de la mort qui tue, mais usage unique dans la partie. Pas accessible en début de partie, à débloquer.
-- Meca : unité comme une force terrestre
+  - Commandant : capacité top, une fois par manche. Non accessible en début de partie (à débloquer avec un prérequis)
+  - Héro : capacité de la mort qui tue, mais usage unique dans la partie. Non accessible en début de partie (à débloquer avec un prérequis)
+- Carte Meca : unité terrestre (=[TT](#TT))
 
-Le reste des éléments de jeu des joueurs sont identiques pour tous les joueurs, seule la couleur change.
+Le reste des éléments de jeu des joueurs sont identiques pour tous les joueurs, seule la couleur change.  
 Eléments de jeu joueur :
 
 - Plateau pour les pions :
   - **Tactique** : Permet les actions principales, bouger les vaissaux, attaquer, produire...etc.  
-    Début = 3
-  - **Flotte** : Indique la capacité de flotte (= nombre de VAISSEAUX par système).  
-    Début = 3
+    _Début = 3_
+  - **Flotte** : Indique la capacité de flotte (= nombre de VAISSEAUX, hors chasseurs, par système).  
+    _Début = 3_
     > Cette valeur peut être ignorée uniquement pendant un combat
   - **Stratégie** : permet en général d'utiliser la capacité secondaire de la [CS](#CS).  
-    Début = 2
-  - **Biens commerciaux** : jokers lors de l'utilisation [RP](#RP) ou [IF](#IF) pour produire des unités
+    _Début = 2_
+  - **Biens commerciaux** : jokers lors de l'utilisation [RP](#RP) ou [IF](#IF) pour produire des unités ou jouer des actions
 - Plateau pour les personnages et le meca.
 - Figurines plastique :
-  - Structures (ne compte pas dans la limite de flotte)
+  - Structures (ne comptent pas dans la limite de flotte)
     - 3 [DS](#DS) = Production d'unités, on démarre la partie avec 1 en général
     - 6 [SDP](#SDP) = Systèmes de défense planétaire
-  - Forces terrestres (ne compte pas dans la limite de flotte)
-    - Infanterie (drapeaux) = troupes au sol
-    - 4 Méca = troupes au sol
+  - Forces terrestres (ne comptent pas dans la limite de flotte, mais doivent être "transportés")
+    - Infanterie (drapeaux) = [TT](#TT)
+    - 4 Méca = [TT](#TT)
   - Vaisseaux
-    - Chasseurs (ne compte pas dans la limite de flotte)
+    - Chasseurs (ne compte pas dans la limite de flotte, mais doivent être "transportés")
     - Destroyer
     - Transporter = pour le transport !
     - Croiseur
     - Cuirassé
     - Soleil de Guerre
     - Vaisseau amiral = le bourrin
-- [CT](#CT), voir la section Technologies
+- 9 [CT](#CT), voir la section Technologies, doivent être acquises au cours de la partie
 - 5 [BO](#BO) (des promesses qu'on va échanger à d'autres joueurs pendant la partie, par exemple "Cessez le feu")
 
 ## Orateur
 
-Il est déterminé aléatoirement. Dans le cas de la construction de la galaxie pas random, c'est lui qui commence à poser avec Mecatol Rex.
+Il est déterminé aléatoirement (ou drafté).  
+Il sera le premier à choisir une carte stratégie lors de la phase de stratégie.  
 Son rôle est principalement de piocher et annoncer les [CPJ](#CPJ) et de trancher les égalités de vote lors de la phase projet.
 
 ## Phase d'une manche
 
 Le jeu se décompose en manches (10 maximum !), elles-mêmes decomposées en 4 phases.
 
-- **Phase Stratégie**
-  Voir la section stratégie/initiative : choix d'une ou deux [CS](#CS).
+- **Phase Stratégie**  
+  En commençant par l'orateur, puis dans le sens horaire, [TLJ](#TLJ) choisissent une [CS](#CS). Lors de partie à 3 ou 4 joueurs, il y a 2 tours pour choisir 2 [CS](#CS).  
+  Le joueur qui aura le plus petit numéro sera le premier à jouer lors de la phase d'action, ce qui implique que l'ordre de jeu lors de cettte phase d'actions est déterminé par ces [CS](#CS) (numéro du plus petit au plus grand), c'est l'ordre d'initiative.  
+  Les cartes non choisies recoivent un [BC](#BC) (gagné par le joueur qui choisira la carte lors d'une prochaine phase de stratégie).  
+  Voir la section Détail des [CS](#CS) pour le détail de chaque carte.
+
 - **Phase d'Actions**
-  - C'est là que tout se passe ! On joue jusqu'à ce qu'on décide de passer.
+  - C'est la phase qui prend le plus de temps. [TLJ](#TLJ) jouent chacun leur tour (dans l'ordre d'initiative) une action, jusqu'à ce que [TLJ](#TLJ) aient passé.
   - On peut faire 3 types d'actions :
     - **Jouer une [CS](#CS)** : primaire pour le joueur actif, secondaire pour tous les autres joueurs. Chaque joueur doit absolument jouer sa/ses [CS](#CS) avant de pouvoir passer. Une fois jouée, elle est retournée.
     - **Jouer une action tactique** ([PT](#PT)), c'est la phase qui peut prendre le plus de temps dans le jeu car beaucoup de choses vont se passer :
@@ -122,28 +136,28 @@ Le jeu se décompose en manches (10 maximum !), elles-mêmes decomposées en 4 p
         - Que les vaisseaux ne proviennent pas d'un système qui a déjà été activé par le joueur actif
         - Que les vaisseaux terminent obligatoirement leur déplacement sur le système activé
         - De respecter la valeur de mouvement des vaisseaux déplacés
-        - De respecter le nombre de vaisseaux de la flotte (réserve de pions)
+        - De respecter le nombre de vaisseaux de la flotte à la fin de l'action. Cette valeur peut être surpassée à partir de ce moment et jusqu'à la fin de l'action, ce qui permet d'arriver avec beaucoup de vaisseaux pour un combat. Les vaisseaux en "surplus" devront être détruits à la fin de l'action.
         - De respecter les valeurs de transport pour les chasseurs et les [TT](#TT).
-          > **On ne peut pas traverser un système qui contient des vaisseaux d'un autre joueur (des forces terrestres oui).**  
-          > Si on quitte une/des planètes sans laisser de [TT](#TT) (ou [DS](#DS) ou [SDP](#SDP)), on laisse alors un [MC](#MC) pour indiquer qu'on a toujours le contrôle de la planète (jusqu'à ce qu'un autre joueur vienne s'installer !)
-          > _On peut assimiler le [PT](#PT)/[PC](#PC) d'un système comme un aimant, qui attire les vaisseaux à portée, et qui ne sont pas dans un système où il y a au autre aimant, vers lui (moyen de se souvenir comment ça fonctionne)._
+          > On ne peut pas traverser un système qui contient des vaisseaux d'un autre joueur (mais des forces terrestres oui).  
+          > Si on quitte une/des planètes sans laisser de [TT](#TT) (ou [DS](#DS) ou [SDP](#SDP)), on laisse alors un [MC](#MC) pour indiquer qu'on a toujours le contrôle de la planète (jusqu'à ce qu'un autre joueur vienne s'installer !)  
+          > On peut assimiler le [PT](#PT)/[PC](#PC) d'un système comme un aimant, qui attire les vaisseaux à portée, et qui ne sont pas dans un système où il y a au autre aimant, vers lui (moyen de se souvenir comment ça fonctionne).
       - _Combat/Invasion_ : S'il y a un joueur dans le système activé (celui vers lequel on se déplace), il y a combat (voir section Combat/Invasion).
       - _Production_ : L'étape production a toujours lieu, même après un combat. Voir la section production.
     - **Jouer une action de son plateau de faction ou d'une [CA](#CA) ou d'une [CT](#CT)** : Tout ce qui a le mot clé "Action:"
-  - On peut faire des échanges à ce moment là avec les joueurs qui sont dans des systèmes adjacents, notamment échanger des commodités qui deviennent des [BC](#BC).
+  - On peut faire des échanges à ce moment là avec les joueurs qui sont dans des systèmes adjacents, notamment échanger des commodités qui deviennent des [BC](#BC) ou échanger des [BO](#BO).
   - A la fin d'une de ces 3 actions, il est possible d'annoncer que l'on passe (on ne fera alors plus rien avant la prochaine manche), mais on peut jouer des cartes actions (sans le mot clé action) et profiter des actions secondaires des autres [CS](#CS) jouées par les autres joueurs.
-- **Phase de Statut**
+- **Phase de Statut**  
   Une fois que tous les joueurs ont passé :
   - On score les [OB](#OB) (moment où l'on peut gagner) : max 2 [OB](#OB), 1 [OBP](#OBP) et 1 [OBS](#OBS). Si un joueur a le nombre de [PV](#PV) requis pour gagner, la partie prend fin, sinon :
   - L'orateur révèle l'[OB](#OB) suivant
   - [TLJ](#TLJ) pioche une [CA](#CA)
   - [TLJ](#TLJ) reprennent leurs [PC](#PC) du plateau et les remettent en réserve
   - [TLJ](#TLJ) prennent 2 [PC](#PC) et les placent sur leur zone de [PC](#PC), en réorganisant comme ils veulent les 3 réserves (tactique, flotte, stratégie). Attention, s'il y des flottes "trop grandes" par rapport à la taille de flotte, il faut détruire les vaisseaux en trop.
-  - [TLJ](#TLJ) "refresh" toutes les cartes : [CPL](#CPL), [CT](#CT), personnages (agent...).
+  - [TLJ](#TLJ) rendent disponibles (!= épuisé) toutes les cartes : [CPL](#CPL), [CT](#CT), personnages (agent...).
   - [TLJ](#TLJ) réparent les vaisseaux enfommagés (ceux qui ont la capacité [DE](#DE))
   - [TLJ](#TLJ) rendent leur(s) [CS](#CS)
 - **Phase de Projet (uniquement si Mecatol Rex a été explorée !)**
-  - L'orateur pioche une [CPJ](#CPJ) et les joueurs votent, en commençant par le joueur à gauche de l'orateur, avec l'influence de leurs [CPL](#CPL) (c'est pour ça qu'on les a retournées juste avant, mais pas de panique, elles seront de nouveau disponibles pour la prochaine manche !)
+  - L'orateur pioche une [CPJ](#CPJ) et les joueurs votent, en commençant par le joueur à gauche de l'orateur, avec l'influence de leurs [CPL](#CPL) (c'est pour ça qu'on les a rendues disponibles juste avant, elles seront rendues de nouveau disponibles pour la prochaine manche à la fin de la phase de projet)
   - L'orateur pioche une seconde [CPJ](#CPJ) et on fait la même chose.
   - L'influence utilisée pour la 1ère [CPJ](#CPJ) ne peut pas l'être pour la 2ème
   - L'absention est possible
@@ -152,7 +166,7 @@ Le jeu se décompose en manches (10 maximum !), elles-mêmes decomposées en 4 p
     - Directive : Effet immédiat et ne reste pas en jeu
     - Loi : Effet permanent qui affecte le reste de la partie
 
-## Stratégie et initiative
+## Détail des [CS](#CS)
 
 Il y a 8 [CS](#CS) :  
 |Numéro (initiative) / Nom|Action(s) principale(s)|Action secondaire|
@@ -165,12 +179,6 @@ Il y a 8 [CS](#CS) :
 |6. Guerre|=> 1 [PC](#PC) du plateau (on le met où on veut), réattribution des pions de la fiche|1 [PS](#PS) => Production [DS](#DS) système natal|
 |7. Technologie|=> 1 [CT](#CT), 6 [RP](#RP) => 1 [CT](#CT)|1 [PS](#PS)+4 [RP](#RP) => 1 [CT](#CT)|
 |8. Intrigue|=> 1 [OBP](#OBP) validé (si conditions remplies), 1 [PV](#PV) si contrôle M.REX ou pioche 1 [OBS](#OBS)|1 [PS](#PS) => 1 [OBS](#OBS)|
-
-Choix des cartes stratégies :
-En commençant par l'orateur, puis dans le sens horaire, on choisit une (ou 2 si on joue à 3 ou 4) carte stratégie.  
-Le joueur qui aura le plus petit numéro sera le premier à jouer lors de la phase action, puis on poursuit en regardant les numéros suivants, pas dans le sens horaire !  
-Les cartes non choisies recoivent un [BC](#BC) (gagné par le joueur qui choisira la carte lors d'une prochaine phase de stratégie).  
-L'initiative (ordre du tour lors de la phase d'actions) est déterminée par le numéro des cartes stratégie.
 
 Utilisation des cartes stratégie :
 
@@ -284,7 +292,7 @@ Lorsqu'un joueur entre avec des vaisseaux dans un système où il y a des unité
 - A condition qu'il y ait suffisamment d'unités terrestres (qu'il y ait eu combat ou non), les planètes du système deviennent contrôlées par le joueur attaquant/arrivant.
 - Le joueur prend les [CPL](#CPL) sur lesquelles il peut mettre au moins une unité terrestre, sur la face épuisée.
 - Les éventuelles structures du joueur défenseur sont détruites ([SDP](#SDP), [DS](#DS))
-- Si le système est exploré pour la première fois (présence d'un pion custom !), le joueur fait une exploration (voir la partie exploration).
+- Si le système est exploré pour la première fois (présence d'un jeton custom !), le joueur fait une exploration (voir la partie exploration).
 
 9. Production :  
    Le joueur peut à ce moment produire, avec les unités ayant le mot clé "Production" (la plupart du temps uniquement les [DS](#DS)). La production doit respecter les règles suivantes :
@@ -294,7 +302,7 @@ Lorsqu'un joueur entre avec des vaisseaux dans un système où il y a des unité
 - Les unités vaisseaux produites vont dans le système actif
 - Les unités terrestres vont sur la planète où il y a le dispositif de production (sauf si c'est produit par un vaisseau, là on a le choix)
 - Valeur de flotte
-  > Il est possible d'utiliser des pions pour symboliser les infanteries (pas les mécas qui sont limités à 4) ou les chasseurs, à condition d'avoir toujours au moins une unité plastique
+  > Il est possible d'utiliser des jetons pour symboliser les infanteries (pas les mécas qui sont limités à 4) ou les chasseurs, à condition d'avoir toujours au moins une unité plastique
   > Toutes les [RP](#RP) exédentaires sont perdues  
   > Il n'est pas possible de produire des vaisseaux dans un système où le joueur n'a pas de vaisseau et qu'il y a des vaisseauxx d'un autre joueur (ça entrainerait un combat, ce qui n'est pas possible).
 
@@ -319,12 +327,12 @@ Lorsque l'on explore un système la première fois, on pioche autant de carte d'
 Les cartes possibles sont :
 
 - Des fragments de reliques, il en faudra 3 pour récupérer une relique (cartes jaunes), en général elles donnent des capacités intéressantes. Interdit d'échanger les reliques avec un autre joueur (les fragments on peut !). Les reliques sont visibles des autres joueurs.
-- Des améliorations de planète : on attache alors la carte à la [CPL](#CPL) correspondante et on prend le pion correspondant qu'on place sur la tuile planète pour indiquer le changement.
+- Des améliorations de planète : on attache alors la carte à la [CPL](#CPL) correspondante et on prend le jeton correspondant qu'on place sur la tuile planète pour indiquer le changement.
 - Des évènements immédiats (à résoudre au moment on récupère la carte)
 
-> Mecatol Rex ou les systèmes natals ne peuvent pas être explorés
+> Mecatol Rex ou les systèmes natals ne peuvent pas être explorés.
 
-Les systèmes sans planètes contiennent des [PF](#PF) qui donnent aussi une carte, mais il faudra avoir la [CT](#CT) permettant de pouvoir explorer ces jetons.
+Les systèmes sans planètes contiennent des [JF](#JF) qui donnent aussi une carte, mais il faudra avoir la [CT](#CT) permettant de pouvoir explorer ces jetons.
 
 ## Personnages
 
@@ -355,9 +363,7 @@ Voir le livret de règles
 
 - On détermine aléatoirement l'orateur.
 - [TLJ](#TLJ) choissisent une faction (ou aleatoirement) et prennent les composants : 17 [MC](#MC), 16 [PC](#PC), 1 tuile système de départ, 1 [CPL](#CPL) (face disponible), 1 [BO](#BO), 2 [CT](#CT), 3 personnages, 1 carte méca, matériel spécifique éventuel de la faction.
-- [TLJ](#TLJ) choisissent une couleur et le matériel : 63 unités plastiques, 1 plateau de commandement, 1 plateau personnage/méca, 33 [CT](#CT),5 [BO](#BO). les [BO](#BO) et [CT](#CT) faction et couleur sont rassemblés. Les personnages sont placés pour montrer les marqueurs bleus 1,2 et 3.
 - La carte de l'univers est créée soit avec les régles spécifiques, soit aléatoirement avec le site suivant : [TI4 map generator](https://keeganw.github.io/ti4/)
-- **TODO**
 
 ### Option 3 : Draft mode
 
@@ -369,6 +375,15 @@ Utiliser l'[assistant](https://milty.shenanigans.be/) !
 - Position dans le tour de jeu (orateur)
 - Slice (ensemble planète de départ + planètes environnantes)
 
+### Mise en place générale
+
+- [TLJ](#TLJ) choisissent une couleur et le matériel : 63 unités plastiques, 1 plateau de commandement, 1 plateau personnage/méca, 33 [CT](#CT),5 [BO](#BO). les [BO](#BO) et [CT](#CT) faction et couleur sont rassemblés. Les personnages sont placés de façon à afficher les marqueurs bleus (traits verticaux) 1,2 et 3.
+- [TLJ](#TLJ) débutent la partie avec 3 [PT](#PT), 3 [PF](#PF), 2 [PS](#PS)
+
 ## Suivi de partie
 
 Un [assistant](https://ti-assistant.com/) existe permettant de suivre la partie et d'avoir des stats en fin de partie.
+
+## Notes
+
+Le guide suivant est issu du guide de référence suivant : [Definite Twilight Imperium Guide](https://images-cdn.fantasyflightgames.com/filer_public/51/55/51552c7f-c05c-445b-84bf-4b073456d008/ti10_pok_living_rules_reference_20_web.pdf), qui pourra être utilisé pendant les parties pour clarifier certains points de règles.
