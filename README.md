@@ -99,8 +99,8 @@ Eléments de jeu joueur :
 - Plateau pour les personnages et le meca.
 - Figurines plastique :
   - Structures (ne comptent pas dans la limite de flotte)
-    - 3 [DS](#DS) = Production d'unités, on démarre la partie avec 1 en général
-    - 6 [SDP](#SDP) = Systèmes de défense planétaire
+    - 3 [DS](#DS) = Production d'unités, on démarre la partie avec 1 en général (max. 1 par planète)
+    - 6 [SDP](#SDP) = Systèmes de défense planétaire (max. 2 par planète)
   - Forces terrestres (ne comptent pas dans la limite de flotte, mais doivent être "transportés")
     - Infanterie (drapeaux) = [TT](#TT)
     - 4 Méca = [TT](#TT)
@@ -163,7 +163,7 @@ Le jeu se décompose en manches (10 maximum !), elles-mêmes decomposées en 4 p
     - réparent les vaisseaux enfommagés (ceux qui ont la capacité [DE](#DE))
     - rendent leur(s) [CS](#CS)
 - **Phase de Projet (uniquement si [MR](#MR) a été explorée !)**
-  - L'orateur pioche une [CPJ](#CPJ) et les joueurs votent, en commençant par le joueur à gauche de l'orateur, avec l'influence de leurs [CPL](#CPL) (c'est pour ça qu'on les a rendues disponibles juste avant, elles seront rendues de nouveau disponibles pour la prochaine manche à la fin de la phase de projet)
+  - L'orateur pioche une [CPJ](#CPJ) et les joueurs votent, en commençant par le joueur à gauche de l'orateur, avec l'influence de leurs [CPL](#CPL) (c'est pour ça qu'on les a rendues disponibles juste avant, elles seront rendues de nouveau disponibles pour la prochaine manche à la fin de la phase de projet). Les [BC](#BC) ne peuvent pas être utilisés pour voter.
   - L'orateur pioche une seconde [CPJ](#CPJ) et on fait la même chose.
   - L'influence utilisée pour la 1ère [CPJ](#CPJ) ne peut pas l'être pour la 2ème
   - L'absention est possible
@@ -279,7 +279,7 @@ Lorsqu'un joueur entre avec des vaisseaux dans un système où il y a des unité
 1. Si le joueur attaqué a des [SDP](#SDP) sur sa planète, il les active, en lancant autant de dés qu'il y a de [SDP](#SDP), succès si les dés font la valeur indiquée ou plus. C'est le joueur attaquant qui choisit quel vaisseau est touché.
 2. Si les joueurs ont des unités ayant la capacité barrage anti-chasseur (les destroyers en général), ils activent cette capacité (potentiellement plusieurs dés à lancer, c'est écrit entre parenthèses). Les 2 joueurs le font simultanément puisque ça ne détruit que les chasseurs.
 3. Annonce de retraite : en commençant par le défenseur, chaque joueur peut annoncer une retraite dans un système adjacent qu'il contrôle(avec ou sans unités), donc attention parfois la retraite n'est pas possible ! Néanmoins, un tour de combat aura quand même lieu ! En cas de retraite, les forces au sol (sur les planètes) doivent quitter la planète et aller "dans l'espace". Il est possible de faire une retraite dans un système qui a déjà un [PC](#PC) présent du joueur.
-4. Combat des vaisseaux : tous les vaisseaux lancent leurs dés (peu importe l'ordre), en faisant attention au nombre de dés et au valeur de combat (la valeur indique le nombre minimum à faire au dé). On compte les touches pour chaque côté, puis on assigne les dégâts :
+4. Combat des vaisseaux : tous les vaisseaux lancent leurs dés (peu importe l'ordre), en faisant attention au nombre de dés et au valeur de combat (la valeur indique le nombre minimum à faire au dé). On compte les touches pour chaque côté, puis on assigne les dégâts (le joueur qui subit les dégats choisit quelle(s) unité(s) il détruit) :
 
 - Les vaisseaux détruits retournent dans la réserve
 - Les vaisseaux endommagés (qui ont dégats encaissés) sont retournés pour indiquer qu'ils sont endommagés
